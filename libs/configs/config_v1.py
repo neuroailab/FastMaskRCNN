@@ -46,7 +46,7 @@ tf.app.flags.DEFINE_string(
     'The directory where the dataset files are stored.')
 
 tf.app.flags.DEFINE_integer(
-    'im_batch', 1,
+    'im_batch', 2,
     'number of images in a mini-batch')
 
 

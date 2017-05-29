@@ -2,6 +2,10 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import matplotlib; 
+matplotlib.use('agg')
+
+
 import os
 import sys
 import math
@@ -12,6 +16,8 @@ import tensorflow as tf
 from six.moves import urllib
 from PIL import Image
 import skimage.io as io
+#import matplotlib
+#matplotlib.use('QT4Agg')
 from matplotlib import pyplot as plt
 
 from libs.datasets.pycocotools.coco import COCO
@@ -275,11 +281,12 @@ def _add_to_tfrecord(record_dir, image_dir, annotation_dir, split_name):
             img_name = os.path.join(image_dir, split, img_name)
             
             if FLAGS.vis:
+              pass
               im = Image.open(img_name)
               im.save('img.png')
-              plt.figure(0)
-              plt.axis('off')
-              plt.imshow(im)
+              #plt.figure(0)
+              #plt.axis('off')
+              #plt.imshow(im)
               # plt.show()
               # plt.close()
             

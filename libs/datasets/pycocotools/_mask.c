@@ -4,8 +4,8 @@
 {
     "distutils": {
         "depends": [
-            "/home/shang/anaconda2/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h", 
-            "/home/shang/anaconda2/lib/python2.7/site-packages/numpy/core/include/numpy/ufuncobject.h", 
+            "/usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h", 
+            "/usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ufuncobject.h", 
             "common/maskApi.h"
         ], 
         "extra_compile_args": [
@@ -14,7 +14,7 @@
             "-std=c99"
         ], 
         "include_dirs": [
-            "/home/shang/anaconda2/lib/python2.7/site-packages/numpy/core/include", 
+            "/usr/lib/python2.7/dist-packages/numpy/core/include", 
             "./common"
         ], 
         "language": "c", 
@@ -453,8 +453,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__thirdparty__pycocotools___mask
-#define __PYX_HAVE_API__thirdparty__pycocotools___mask
+#define __PYX_HAVE__libs__datasets__pycocotools___mask
+#define __PYX_HAVE_API__libs__datasets__pycocotools___mask
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -678,7 +678,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "thirdparty/pycocotools/_mask.pyx",
+  "libs/datasets/pycocotools/_mask.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -719,7 +719,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":725
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":725
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -728,7 +728,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":726
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":726
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -737,7 +737,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":727
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":727
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -746,7 +746,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":728
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":728
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -755,7 +755,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":732
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":732
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -764,7 +764,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":733
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":733
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -773,7 +773,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":734
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":734
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -782,7 +782,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":735
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":735
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -791,7 +791,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":739
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":739
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -800,7 +800,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":740
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":740
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -809,7 +809,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":749
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":749
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -818,7 +818,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":750
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":750
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -827,7 +827,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":751
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":751
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -836,7 +836,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":753
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":753
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -845,7 +845,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":754
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":754
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -854,7 +854,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":755
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":755
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -863,7 +863,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":757
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":757
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -872,7 +872,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":758
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":758
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -881,7 +881,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":760
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":760
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -890,7 +890,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":761
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":761
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -899,7 +899,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":762
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":762
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -933,10 +933,10 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs;
-struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks;
+struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs;
+struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":764
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":764
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -945,7 +945,7 @@ struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":765
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":765
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -954,7 +954,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":766
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":766
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -963,7 +963,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":768
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":768
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -972,28 +972,28 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
-/* "thirdparty/pycocotools/_mask.pyx":56
+/* "libs/datasets/pycocotools/_mask.pyx":56
  * # python class to wrap RLE array in C
  * # the class handles the memory allocation and deallocation
  * cdef class RLEs:             # <<<<<<<<<<<<<<
  *     cdef RLE *_R
  *     cdef siz _n
  */
-struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs {
+struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs {
   PyObject_HEAD
   RLE *_R;
   siz _n;
 };
 
 
-/* "thirdparty/pycocotools/_mask.pyx":77
+/* "libs/datasets/pycocotools/_mask.pyx":77
  * # python class to wrap Mask array in C
  * # the class handles the memory allocation and deallocation
  * cdef class Masks:             # <<<<<<<<<<<<<<
  *     cdef byte *_mask
  *     cdef siz _h
  */
-struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks {
+struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks {
   PyObject_HEAD
   byte *_mask;
   siz _h;
@@ -1620,16 +1620,16 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, char *, char *, int *); /*proto*/
 static CYTHON_INLINE int __pyx_f_5numpy_import_array(void); /*proto*/
 
-/* Module declarations from 'thirdparty.pycocotools._mask' */
-static PyTypeObject *__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs = 0;
-static PyTypeObject *__pyx_ptype_10thirdparty_11pycocotools_5_mask_Masks = 0;
+/* Module declarations from 'libs.datasets.pycocotools._mask' */
+static PyTypeObject *__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs = 0;
+static PyTypeObject *__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_Masks = 0;
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_uint8_t = { "uint8_t", NULL, sizeof(__pyx_t_5numpy_uint8_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_uint8_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_uint8_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_double_t = { "double_t", NULL, sizeof(__pyx_t_5numpy_double_t), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_uint32_t = { "uint32_t", NULL, sizeof(__pyx_t_5numpy_uint32_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_uint32_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_uint32_t), 0 };
-#define __Pyx_MODULE_NAME "thirdparty.pycocotools._mask"
-int __pyx_module_is_main_thirdparty__pycocotools___mask = 0;
+#define __Pyx_MODULE_NAME "libs.datasets.pycocotools._mask"
+int __pyx_module_is_main_libs__datasets__pycocotools___mask = 0;
 
-/* Implementation of 'thirdparty.pycocotools._mask' */
+/* Implementation of 'libs.datasets.pycocotools._mask' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_AttributeError;
 static PyObject *__pyx_builtin_enumerate;
@@ -1726,9 +1726,9 @@ static const char __pyx_k_iou_locals__preproc[] = "iou.<locals>._preproc";
 static const char __pyx_k_input_data_type_not_allowed[] = "input data type not allowed.";
 static const char __pyx_k_input_type_is_not_supported[] = "input type is not supported.";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
-static const char __pyx_k_thirdparty_pycocotools__mask[] = "thirdparty.pycocotools._mask";
 static const char __pyx_k_Python_version_must_be_2_or_3[] = "Python version must be 2 or 3";
-static const char __pyx_k_home_shang_Work_camus_thirdpart[] = "/home/shang/Work/camus/thirdparty/pycocotools/_mask.pyx";
+static const char __pyx_k_libs_datasets_pycocotools__mask[] = "libs.datasets.pycocotools._mask";
+static const char __pyx_k_mnt_fs1_chengxuz_maskrcnn_relat[] = "/mnt/fs1/chengxuz/maskrcnn_relate/FastMaskRCNN/libs/datasets/pycocotools/_mask.pyx";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_numpy_ndarray_input_is_only_for[] = "numpy ndarray input is only for *bounding boxes* and should have Nx4 dimension";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
@@ -1781,7 +1781,6 @@ static PyObject *__pyx_n_s_frString;
 static PyObject *__pyx_n_s_frUncompressedRLE;
 static PyObject *__pyx_n_s_gt;
 static PyObject *__pyx_n_s_h;
-static PyObject *__pyx_kp_s_home_shang_Work_camus_thirdpart;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_kp_s_input_data_type_not_allowed;
@@ -1799,12 +1798,14 @@ static PyObject *__pyx_n_s_iscrowd;
 static PyObject *__pyx_n_s_isrle;
 static PyObject *__pyx_n_s_j;
 static PyObject *__pyx_n_s_len;
+static PyObject *__pyx_n_s_libs_datasets_pycocotools__mask;
 static PyObject *__pyx_kp_s_list_input_can_be_bounding_box_N;
 static PyObject *__pyx_n_s_m;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_mask;
 static PyObject *__pyx_n_s_masks;
 static PyObject *__pyx_n_s_merge;
+static PyObject *__pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat;
 static PyObject *__pyx_n_s_n;
 static PyObject *__pyx_kp_u_ndarray_is_not_C_contiguous;
 static PyObject *__pyx_kp_u_ndarray_is_not_Fortran_contiguou;
@@ -1831,7 +1832,6 @@ static PyObject *__pyx_n_s_shape;
 static PyObject *__pyx_n_s_size;
 static PyObject *__pyx_n_s_sys;
 static PyObject *__pyx_n_s_test;
-static PyObject *__pyx_n_s_thirdparty_pycocotools__mask;
 static PyObject *__pyx_n_s_toBbox;
 static PyObject *__pyx_n_s_toString;
 static PyObject *__pyx_n_s_tsungyi;
@@ -1844,31 +1844,31 @@ static PyObject *__pyx_n_s_utf8;
 static PyObject *__pyx_n_s_version_info;
 static PyObject *__pyx_n_s_w;
 static PyObject *__pyx_n_s_zeros;
-static int __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs___cinit__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_self, siz __pyx_v_n); /* proto */
-static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_self, PyObject *__pyx_v_key); /* proto */
-static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *__pyx_v_self, PyObject *__pyx_v_h, PyObject *__pyx_v_w, PyObject *__pyx_v_n); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_mask); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs, PyObject *__pyx_v_intersect); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_objs); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_dt, struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_dt, PyArrayObject *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dt, PyObject *__pyx_v_gt, PyObject *__pyx_v_pyiscrowd); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_bb, siz __pyx_v_h, siz __pyx_v_w); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_poly, siz __pyx_v_h, siz __pyx_v_w); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_ucRles, CYTHON_UNUSED siz __pyx_v_h, CYTHON_UNUSED siz __pyx_v_w); /* proto */
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pyobj, PyObject *__pyx_v_h, PyObject *__pyx_v_w); /* proto */
+static int __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs___cinit__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_self, siz __pyx_v_n); /* proto */
+static void __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs_2__dealloc__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs_4__getattr__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_self, PyObject *__pyx_v_key); /* proto */
+static int __pyx_pf_4libs_8datasets_11pycocotools_5_mask_5Masks___cinit__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *__pyx_v_self, PyObject *__pyx_v_h, PyObject *__pyx_v_w, PyObject *__pyx_v_n); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_5Masks_2__array__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask__toString(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_2_frString(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_4encode(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_mask); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_6decode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_8merge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs, PyObject *__pyx_v_intersect); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_10area(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou__preproc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_objs); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_2_rleIou(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_dt, struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_dt, PyArrayObject *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_6_len(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_12iou(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dt, PyObject *__pyx_v_gt, PyObject *__pyx_v_pyiscrowd); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_14toBbox(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_16frBbox(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_bb, siz __pyx_v_h, siz __pyx_v_w); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_18frPoly(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_poly, siz __pyx_v_h, siz __pyx_v_w); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_20frUncompressedRLE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_ucRles, CYTHON_UNUSED siz __pyx_v_h, CYTHON_UNUSED siz __pyx_v_w); /* proto */
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_22frPyObjects(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pyobj, PyObject *__pyx_v_h, PyObject *__pyx_v_w); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
-static PyObject *__pyx_tp_new_10thirdparty_11pycocotools_5_mask_RLEs(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_10thirdparty_11pycocotools_5_mask_Masks(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_4libs_8datasets_11pycocotools_5_mask_RLEs(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_4libs_8datasets_11pycocotools_5_mask_Masks(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
@@ -1926,7 +1926,7 @@ static PyObject *__pyx_codeobj__47;
 static PyObject *__pyx_codeobj__49;
 static PyObject *__pyx_codeobj__51;
 
-/* "thirdparty/pycocotools/_mask.pyx":60
+/* "libs/datasets/pycocotools/_mask.pyx":60
  *     cdef siz _n
  * 
  *     def __cinit__(self, siz n =0):             # <<<<<<<<<<<<<<
@@ -1935,8 +1935,8 @@ static PyObject *__pyx_codeobj__51;
  */
 
 /* Python wrapper */
-static int __pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   siz __pyx_v_n;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -1980,23 +1980,23 @@ static int __pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_1__cinit__(PyObject 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 60, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.RLEs.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.RLEs.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs___cinit__(((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_v_self), __pyx_v_n);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs___cinit__(((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_v_self), __pyx_v_n);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs___cinit__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_self, siz __pyx_v_n) {
+static int __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs___cinit__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_self, siz __pyx_v_n) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":61
+  /* "libs/datasets/pycocotools/_mask.pyx":61
  * 
  *     def __cinit__(self, siz n =0):
  *         rlesInit(&self._R, n)             # <<<<<<<<<<<<<<
@@ -2005,7 +2005,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs___cinit__(struct __p
  */
   rlesInit((&__pyx_v_self->_R), __pyx_v_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":62
+  /* "libs/datasets/pycocotools/_mask.pyx":62
  *     def __cinit__(self, siz n =0):
  *         rlesInit(&self._R, n)
  *         self._n = n             # <<<<<<<<<<<<<<
@@ -2014,7 +2014,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs___cinit__(struct __p
  */
   __pyx_v_self->_n = __pyx_v_n;
 
-  /* "thirdparty/pycocotools/_mask.pyx":60
+  /* "libs/datasets/pycocotools/_mask.pyx":60
  *     cdef siz _n
  * 
  *     def __cinit__(self, siz n =0):             # <<<<<<<<<<<<<<
@@ -2028,7 +2028,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs___cinit__(struct __p
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":65
+/* "libs/datasets/pycocotools/_mask.pyx":65
  * 
  *     # free the RLE array here
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2037,17 +2037,17 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs___cinit__(struct __p
  */
 
 /* Python wrapper */
-static void __pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_3__dealloc__(PyObject *__pyx_v_self); /*proto*/
-static void __pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_3__dealloc__(PyObject *__pyx_v_self) {
+static void __pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_3__dealloc__(PyObject *__pyx_v_self); /*proto*/
+static void __pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_3__dealloc__(PyObject *__pyx_v_self) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__ (wrapper)", 0);
-  __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_v_self));
+  __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs_2__dealloc__(((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
 }
 
-static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_self) {
+static void __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs_2__dealloc__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_self) {
   siz __pyx_v_i;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -2055,7 +2055,7 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
   siz __pyx_t_3;
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":66
+  /* "libs/datasets/pycocotools/_mask.pyx":66
  *     # free the RLE array here
  *     def __dealloc__(self):
  *         if self._R is not NULL:             # <<<<<<<<<<<<<<
@@ -2065,7 +2065,7 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
   __pyx_t_1 = ((__pyx_v_self->_R != NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":67
+    /* "libs/datasets/pycocotools/_mask.pyx":67
  *     def __dealloc__(self):
  *         if self._R is not NULL:
  *             for i in range(self._n):             # <<<<<<<<<<<<<<
@@ -2076,7 +2076,7 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
     for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
       __pyx_v_i = __pyx_t_3;
 
-      /* "thirdparty/pycocotools/_mask.pyx":68
+      /* "libs/datasets/pycocotools/_mask.pyx":68
  *         if self._R is not NULL:
  *             for i in range(self._n):
  *                 free(self._R[i].cnts)             # <<<<<<<<<<<<<<
@@ -2086,7 +2086,7 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
       free((__pyx_v_self->_R[__pyx_v_i]).cnts);
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":69
+    /* "libs/datasets/pycocotools/_mask.pyx":69
  *             for i in range(self._n):
  *                 free(self._R[i].cnts)
  *             free(self._R)             # <<<<<<<<<<<<<<
@@ -2095,7 +2095,7 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
  */
     free(__pyx_v_self->_R);
 
-    /* "thirdparty/pycocotools/_mask.pyx":66
+    /* "libs/datasets/pycocotools/_mask.pyx":66
  *     # free the RLE array here
  *     def __dealloc__(self):
  *         if self._R is not NULL:             # <<<<<<<<<<<<<<
@@ -2104,7 +2104,7 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
  */
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":65
+  /* "libs/datasets/pycocotools/_mask.pyx":65
  * 
  *     # free the RLE array here
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2116,7 +2116,7 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
   __Pyx_RefNannyFinishContext();
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":70
+/* "libs/datasets/pycocotools/_mask.pyx":70
  *                 free(self._R[i].cnts)
  *             free(self._R)
  *     def __getattr__(self, key):             # <<<<<<<<<<<<<<
@@ -2125,19 +2125,19 @@ static void __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_2__dealloc__(struct
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_5__getattr__(PyObject *__pyx_v_self, PyObject *__pyx_v_key); /*proto*/
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_5__getattr__(PyObject *__pyx_v_self, PyObject *__pyx_v_key) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_5__getattr__(PyObject *__pyx_v_self, PyObject *__pyx_v_key); /*proto*/
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_5__getattr__(PyObject *__pyx_v_self, PyObject *__pyx_v_key) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__getattr__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_v_self), ((PyObject *)__pyx_v_key));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs_4__getattr__(((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_v_self), ((PyObject *)__pyx_v_key));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_self, PyObject *__pyx_v_key) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_4RLEs_4__getattr__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_self, PyObject *__pyx_v_key) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -2145,7 +2145,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__getattr__", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":71
+  /* "libs/datasets/pycocotools/_mask.pyx":71
  *             free(self._R)
  *     def __getattr__(self, key):
  *         if key == 'n':             # <<<<<<<<<<<<<<
@@ -2155,7 +2155,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_key, __pyx_n_s_n, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 71, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":72
+    /* "libs/datasets/pycocotools/_mask.pyx":72
  *     def __getattr__(self, key):
  *         if key == 'n':
  *             return self._n             # <<<<<<<<<<<<<<
@@ -2169,7 +2169,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":71
+    /* "libs/datasets/pycocotools/_mask.pyx":71
  *             free(self._R)
  *     def __getattr__(self, key):
  *         if key == 'n':             # <<<<<<<<<<<<<<
@@ -2178,7 +2178,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
  */
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":73
+  /* "libs/datasets/pycocotools/_mask.pyx":73
  *         if key == 'n':
  *             return self._n
  *         raise AttributeError(key)             # <<<<<<<<<<<<<<
@@ -2197,7 +2197,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __PYX_ERR(0, 73, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":70
+  /* "libs/datasets/pycocotools/_mask.pyx":70
  *                 free(self._R[i].cnts)
  *             free(self._R)
  *     def __getattr__(self, key):             # <<<<<<<<<<<<<<
@@ -2209,7 +2209,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.RLEs.__getattr__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.RLEs.__getattr__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2217,7 +2217,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":83
+/* "libs/datasets/pycocotools/_mask.pyx":83
  *     cdef siz _n
  * 
  *     def __cinit__(self, h, w, n):             # <<<<<<<<<<<<<<
@@ -2226,8 +2226,8 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4RLEs_4__getattr__(s
  */
 
 /* Python wrapper */
-static int __pyx_pw_10thirdparty_11pycocotools_5_mask_5Masks_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_10thirdparty_11pycocotools_5_mask_5Masks_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_4libs_8datasets_11pycocotools_5_mask_5Masks_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_4libs_8datasets_11pycocotools_5_mask_5Masks_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_h = 0;
   PyObject *__pyx_v_w = 0;
   PyObject *__pyx_v_n = 0;
@@ -2281,18 +2281,18 @@ static int __pyx_pw_10thirdparty_11pycocotools_5_mask_5Masks_1__cinit__(PyObject
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__cinit__", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 83, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.Masks.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.Masks.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *)__pyx_v_self), __pyx_v_h, __pyx_v_w, __pyx_v_n);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_5Masks___cinit__(((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *)__pyx_v_self), __pyx_v_h, __pyx_v_w, __pyx_v_n);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *__pyx_v_self, PyObject *__pyx_v_h, PyObject *__pyx_v_w, PyObject *__pyx_v_n) {
+static int __pyx_pf_4libs_8datasets_11pycocotools_5_mask_5Masks___cinit__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *__pyx_v_self, PyObject *__pyx_v_h, PyObject *__pyx_v_w, PyObject *__pyx_v_n) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2302,7 +2302,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __
   siz __pyx_t_5;
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":84
+  /* "libs/datasets/pycocotools/_mask.pyx":84
  * 
  *     def __cinit__(self, h, w, n):
  *         self._mask = <byte*> malloc(h*w*n* sizeof(byte))             # <<<<<<<<<<<<<<
@@ -2324,7 +2324,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_self->_mask = ((byte *)malloc(__pyx_t_4));
 
-  /* "thirdparty/pycocotools/_mask.pyx":85
+  /* "libs/datasets/pycocotools/_mask.pyx":85
  *     def __cinit__(self, h, w, n):
  *         self._mask = <byte*> malloc(h*w*n* sizeof(byte))
  *         self._h = h             # <<<<<<<<<<<<<<
@@ -2334,7 +2334,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __
   __pyx_t_5 = __Pyx_PyInt_As_siz(__pyx_v_h); if (unlikely((__pyx_t_5 == ((siz)-1)) && PyErr_Occurred())) __PYX_ERR(0, 85, __pyx_L1_error)
   __pyx_v_self->_h = __pyx_t_5;
 
-  /* "thirdparty/pycocotools/_mask.pyx":86
+  /* "libs/datasets/pycocotools/_mask.pyx":86
  *         self._mask = <byte*> malloc(h*w*n* sizeof(byte))
  *         self._h = h
  *         self._w = w             # <<<<<<<<<<<<<<
@@ -2344,7 +2344,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __
   __pyx_t_5 = __Pyx_PyInt_As_siz(__pyx_v_w); if (unlikely((__pyx_t_5 == ((siz)-1)) && PyErr_Occurred())) __PYX_ERR(0, 86, __pyx_L1_error)
   __pyx_v_self->_w = __pyx_t_5;
 
-  /* "thirdparty/pycocotools/_mask.pyx":87
+  /* "libs/datasets/pycocotools/_mask.pyx":87
  *         self._h = h
  *         self._w = w
  *         self._n = n             # <<<<<<<<<<<<<<
@@ -2354,7 +2354,7 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __
   __pyx_t_5 = __Pyx_PyInt_As_siz(__pyx_v_n); if (unlikely((__pyx_t_5 == ((siz)-1)) && PyErr_Occurred())) __PYX_ERR(0, 87, __pyx_L1_error)
   __pyx_v_self->_n = __pyx_t_5;
 
-  /* "thirdparty/pycocotools/_mask.pyx":83
+  /* "libs/datasets/pycocotools/_mask.pyx":83
  *     cdef siz _n
  * 
  *     def __cinit__(self, h, w, n):             # <<<<<<<<<<<<<<
@@ -2369,14 +2369,14 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.Masks.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.Masks.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":93
+/* "libs/datasets/pycocotools/_mask.pyx":93
  * 
  *     # called when passing into np.array() and return an np.ndarray in column-major order
  *     def __array__(self):             # <<<<<<<<<<<<<<
@@ -2385,19 +2385,19 @@ static int __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks___cinit__(struct __
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_5Masks_3__array__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_5Masks_3__array__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_5Masks_3__array__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_5Masks_3__array__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__array__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *)__pyx_v_self));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_5Masks_2__array__(((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *__pyx_v_self) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_5Masks_2__array__(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *__pyx_v_self) {
   npy_intp __pyx_v_shape[1];
   PyObject *__pyx_v_ndarray = NULL;
   PyObject *__pyx_r = NULL;
@@ -2409,7 +2409,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("__array__", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":95
+  /* "libs/datasets/pycocotools/_mask.pyx":95
  *     def __array__(self):
  *         cdef np.npy_intp shape[1]
  *         shape[0] = <np.npy_intp> self._h*self._w*self._n             # <<<<<<<<<<<<<<
@@ -2418,7 +2418,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
  */
   (__pyx_v_shape[0]) = ((((npy_intp)__pyx_v_self->_h) * __pyx_v_self->_w) * __pyx_v_self->_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":97
+  /* "libs/datasets/pycocotools/_mask.pyx":97
  *         shape[0] = <np.npy_intp> self._h*self._w*self._n
  *         # Create a 1D array, and reshape it to fortran/Matlab column-major array
  *         ndarray = np.PyArray_SimpleNewFromData(1, shape, np.NPY_UINT8, self._mask).reshape((self._h, self._w, self._n), order='F')             # <<<<<<<<<<<<<<
@@ -2463,7 +2463,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
   __pyx_v_ndarray = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":99
+  /* "libs/datasets/pycocotools/_mask.pyx":99
  *         ndarray = np.PyArray_SimpleNewFromData(1, shape, np.NPY_UINT8, self._mask).reshape((self._h, self._w, self._n), order='F')
  *         # The _mask allocated by Masks is now handled by ndarray
  *         PyArray_ENABLEFLAGS(ndarray, np.NPY_OWNDATA)             # <<<<<<<<<<<<<<
@@ -2473,7 +2473,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
   if (!(likely(((__pyx_v_ndarray) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_ndarray, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 99, __pyx_L1_error)
   PyArray_ENABLEFLAGS(((PyArrayObject *)__pyx_v_ndarray), NPY_OWNDATA);
 
-  /* "thirdparty/pycocotools/_mask.pyx":100
+  /* "libs/datasets/pycocotools/_mask.pyx":100
  *         # The _mask allocated by Masks is now handled by ndarray
  *         PyArray_ENABLEFLAGS(ndarray, np.NPY_OWNDATA)
  *         return ndarray             # <<<<<<<<<<<<<<
@@ -2485,7 +2485,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
   __pyx_r = __pyx_v_ndarray;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":93
+  /* "libs/datasets/pycocotools/_mask.pyx":93
  * 
  *     # called when passing into np.array() and return an np.ndarray in column-major order
  *     def __array__(self):             # <<<<<<<<<<<<<<
@@ -2500,7 +2500,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.Masks.__array__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.Masks.__array__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ndarray);
@@ -2509,7 +2509,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":103
+/* "libs/datasets/pycocotools/_mask.pyx":103
  * 
  * # internal conversion from Python RLEs object to compressed RLE format
  * def _toString(RLEs Rs):             # <<<<<<<<<<<<<<
@@ -2518,14 +2518,14 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_5Masks_2__array__(st
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_1_toString(PyObject *__pyx_self, PyObject *__pyx_v_Rs); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_1_toString = {"_toString", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_1_toString, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_1_toString(PyObject *__pyx_self, PyObject *__pyx_v_Rs) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_1_toString(PyObject *__pyx_self, PyObject *__pyx_v_Rs); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_1_toString = {"_toString", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_1_toString, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_1_toString(PyObject *__pyx_self, PyObject *__pyx_v_Rs) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_toString (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_Rs), __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs, 1, "Rs", 0))) __PYX_ERR(0, 103, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask__toString(__pyx_self, ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_v_Rs));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_Rs), __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs, 1, "Rs", 0))) __PYX_ERR(0, 103, __pyx_L1_error)
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask__toString(__pyx_self, ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_v_Rs));
 
   /* function exit code */
   goto __pyx_L0;
@@ -2536,7 +2536,7 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_1_toString(PyObject 
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask__toString(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs) {
   siz __pyx_v_n;
   PyObject *__pyx_v_py_string = 0;
   char *__pyx_v_c_string;
@@ -2553,7 +2553,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
   int __pyx_t_7;
   __Pyx_RefNannySetupContext("_toString", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":104
+  /* "libs/datasets/pycocotools/_mask.pyx":104
  * # internal conversion from Python RLEs object to compressed RLE format
  * def _toString(RLEs Rs):
  *     cdef siz n = Rs.n             # <<<<<<<<<<<<<<
@@ -2566,7 +2566,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n = __pyx_t_2;
 
-  /* "thirdparty/pycocotools/_mask.pyx":107
+  /* "libs/datasets/pycocotools/_mask.pyx":107
  *     cdef bytes py_string
  *     cdef char* c_string
  *     objs = []             # <<<<<<<<<<<<<<
@@ -2578,7 +2578,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
   __pyx_v_objs = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":108
+  /* "libs/datasets/pycocotools/_mask.pyx":108
  *     cdef char* c_string
  *     objs = []
  *     for i in range(n):             # <<<<<<<<<<<<<<
@@ -2589,7 +2589,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "thirdparty/pycocotools/_mask.pyx":109
+    /* "libs/datasets/pycocotools/_mask.pyx":109
  *     objs = []
  *     for i in range(n):
  *         c_string = rleToString( <RLE*> &Rs._R[i] )             # <<<<<<<<<<<<<<
@@ -2598,7 +2598,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
  */
     __pyx_v_c_string = rleToString(((RLE *)(&(__pyx_v_Rs->_R[__pyx_v_i]))));
 
-    /* "thirdparty/pycocotools/_mask.pyx":110
+    /* "libs/datasets/pycocotools/_mask.pyx":110
  *     for i in range(n):
  *         c_string = rleToString( <RLE*> &Rs._R[i] )
  *         py_string = c_string             # <<<<<<<<<<<<<<
@@ -2610,7 +2610,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
     __Pyx_XDECREF_SET(__pyx_v_py_string, ((PyObject*)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":112
+    /* "libs/datasets/pycocotools/_mask.pyx":112
  *         py_string = c_string
  *         objs.append({
  *             'size': [Rs._R[i].h, Rs._R[i].w],             # <<<<<<<<<<<<<<
@@ -2634,7 +2634,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
     if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_size, __pyx_t_6) < 0) __PYX_ERR(0, 112, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":114
+    /* "libs/datasets/pycocotools/_mask.pyx":114
  *             'size': [Rs._R[i].h, Rs._R[i].w],
  *             'counts': py_string
  *         })             # <<<<<<<<<<<<<<
@@ -2643,7 +2643,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
  */
     if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_counts, __pyx_v_py_string) < 0) __PYX_ERR(0, 112, __pyx_L1_error)
 
-    /* "thirdparty/pycocotools/_mask.pyx":111
+    /* "libs/datasets/pycocotools/_mask.pyx":111
  *         c_string = rleToString( <RLE*> &Rs._R[i] )
  *         py_string = c_string
  *         objs.append({             # <<<<<<<<<<<<<<
@@ -2653,7 +2653,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
     __pyx_t_7 = __Pyx_PyList_Append(__pyx_v_objs, __pyx_t_1); if (unlikely(__pyx_t_7 == -1)) __PYX_ERR(0, 111, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":115
+    /* "libs/datasets/pycocotools/_mask.pyx":115
  *             'counts': py_string
  *         })
  *         free(c_string)             # <<<<<<<<<<<<<<
@@ -2663,7 +2663,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
     free(__pyx_v_c_string);
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":116
+  /* "libs/datasets/pycocotools/_mask.pyx":116
  *         })
  *         free(c_string)
  *     return objs             # <<<<<<<<<<<<<<
@@ -2675,7 +2675,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
   __pyx_r = __pyx_v_objs;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":103
+  /* "libs/datasets/pycocotools/_mask.pyx":103
  * 
  * # internal conversion from Python RLEs object to compressed RLE format
  * def _toString(RLEs Rs):             # <<<<<<<<<<<<<<
@@ -2689,7 +2689,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask._toString", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask._toString", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_py_string);
@@ -2699,7 +2699,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":119
+/* "libs/datasets/pycocotools/_mask.pyx":119
  * 
  * # internal conversion from compressed RLE format to Python RLEs object
  * def _frString(rleObjs):             # <<<<<<<<<<<<<<
@@ -2708,22 +2708,22 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask__toString(CYTHON_UNU
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3_frString(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_3_frString = {"_frString", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_3_frString, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3_frString(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3_frString(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3_frString = {"_frString", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3_frString, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3_frString(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_frString (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_2_frString(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_2_frString(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
   siz __pyx_v_n;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
   PyObject *__pyx_v_py_string = 0;
   char *__pyx_v_c_string;
   PyObject *__pyx_v_i = NULL;
@@ -2747,7 +2747,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
   siz __pyx_t_15;
   __Pyx_RefNannySetupContext("_frString", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":120
+  /* "libs/datasets/pycocotools/_mask.pyx":120
  * # internal conversion from compressed RLE format to Python RLEs object
  * def _frString(rleObjs):
  *     cdef siz n = len(rleObjs)             # <<<<<<<<<<<<<<
@@ -2757,7 +2757,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
   __pyx_t_1 = PyObject_Length(__pyx_v_rleObjs); if (unlikely(__pyx_t_1 == -1)) __PYX_ERR(0, 120, __pyx_L1_error)
   __pyx_v_n = __pyx_t_1;
 
-  /* "thirdparty/pycocotools/_mask.pyx":121
+  /* "libs/datasets/pycocotools/_mask.pyx":121
  * def _frString(rleObjs):
  *     cdef siz n = len(rleObjs)
  *     Rs = RLEs(n)             # <<<<<<<<<<<<<<
@@ -2771,13 +2771,13 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_2);
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":124
+  /* "libs/datasets/pycocotools/_mask.pyx":124
  *     cdef bytes py_string
  *     cdef char* c_string
  *     for i, obj in enumerate(rleObjs):             # <<<<<<<<<<<<<<
@@ -2835,7 +2835,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
     __pyx_t_2 = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":125
+    /* "libs/datasets/pycocotools/_mask.pyx":125
  *     cdef char* c_string
  *     for i, obj in enumerate(rleObjs):
  *         if PYTHON_VERSION == 2:             # <<<<<<<<<<<<<<
@@ -2851,7 +2851,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     if (__pyx_t_7) {
 
-      /* "thirdparty/pycocotools/_mask.pyx":126
+      /* "libs/datasets/pycocotools/_mask.pyx":126
  *     for i, obj in enumerate(rleObjs):
  *         if PYTHON_VERSION == 2:
  *             py_string = str(obj['counts']).encode('utf8')             # <<<<<<<<<<<<<<
@@ -2878,7 +2878,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
       __Pyx_XDECREF_SET(__pyx_v_py_string, ((PyObject*)__pyx_t_6));
       __pyx_t_6 = 0;
 
-      /* "thirdparty/pycocotools/_mask.pyx":125
+      /* "libs/datasets/pycocotools/_mask.pyx":125
  *     cdef char* c_string
  *     for i, obj in enumerate(rleObjs):
  *         if PYTHON_VERSION == 2:             # <<<<<<<<<<<<<<
@@ -2888,7 +2888,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
       goto __pyx_L5;
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":127
+    /* "libs/datasets/pycocotools/_mask.pyx":127
  *         if PYTHON_VERSION == 2:
  *             py_string = str(obj['counts']).encode('utf8')
  *         elif PYTHON_VERSION == 3:             # <<<<<<<<<<<<<<
@@ -2904,7 +2904,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     if (__pyx_t_7) {
 
-      /* "thirdparty/pycocotools/_mask.pyx":128
+      /* "libs/datasets/pycocotools/_mask.pyx":128
  *             py_string = str(obj['counts']).encode('utf8')
  *         elif PYTHON_VERSION == 3:
  *             py_string = str.encode(obj['counts']) if type(obj['counts']) == str else obj['counts']             # <<<<<<<<<<<<<<
@@ -2981,7 +2981,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
       __Pyx_XDECREF_SET(__pyx_v_py_string, ((PyObject*)__pyx_t_5));
       __pyx_t_5 = 0;
 
-      /* "thirdparty/pycocotools/_mask.pyx":127
+      /* "libs/datasets/pycocotools/_mask.pyx":127
  *         if PYTHON_VERSION == 2:
  *             py_string = str(obj['counts']).encode('utf8')
  *         elif PYTHON_VERSION == 3:             # <<<<<<<<<<<<<<
@@ -2991,7 +2991,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
       goto __pyx_L5;
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":130
+    /* "libs/datasets/pycocotools/_mask.pyx":130
  *             py_string = str.encode(obj['counts']) if type(obj['counts']) == str else obj['counts']
  *         else:
  *             raise Exception('Python version must be 2 or 3')             # <<<<<<<<<<<<<<
@@ -3007,7 +3007,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
     }
     __pyx_L5:;
 
-    /* "thirdparty/pycocotools/_mask.pyx":131
+    /* "libs/datasets/pycocotools/_mask.pyx":131
  *         else:
  *             raise Exception('Python version must be 2 or 3')
  *         c_string = py_string             # <<<<<<<<<<<<<<
@@ -3017,7 +3017,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
     __pyx_t_12 = __Pyx_PyObject_AsString(__pyx_v_py_string); if (unlikely((!__pyx_t_12) && PyErr_Occurred())) __PYX_ERR(0, 131, __pyx_L1_error)
     __pyx_v_c_string = __pyx_t_12;
 
-    /* "thirdparty/pycocotools/_mask.pyx":132
+    /* "libs/datasets/pycocotools/_mask.pyx":132
  *             raise Exception('Python version must be 2 or 3')
  *         c_string = py_string
  *         rleFrString( <RLE*> &Rs._R[i], <char*> c_string, obj['size'][0], obj['size'][1] )             # <<<<<<<<<<<<<<
@@ -3041,7 +3041,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     rleFrString(((RLE *)(&(__pyx_v_Rs->_R[__pyx_t_13]))), ((char *)__pyx_v_c_string), __pyx_t_14, __pyx_t_15);
 
-    /* "thirdparty/pycocotools/_mask.pyx":124
+    /* "libs/datasets/pycocotools/_mask.pyx":124
  *     cdef bytes py_string
  *     cdef char* c_string
  *     for i, obj in enumerate(rleObjs):             # <<<<<<<<<<<<<<
@@ -3052,7 +3052,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":133
+  /* "libs/datasets/pycocotools/_mask.pyx":133
  *         c_string = py_string
  *         rleFrString( <RLE*> &Rs._R[i], <char*> c_string, obj['size'][0], obj['size'][1] )
  *     return Rs             # <<<<<<<<<<<<<<
@@ -3064,7 +3064,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
   __pyx_r = ((PyObject *)__pyx_v_Rs);
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":119
+  /* "libs/datasets/pycocotools/_mask.pyx":119
  * 
  * # internal conversion from compressed RLE format to Python RLEs object
  * def _frString(rleObjs):             # <<<<<<<<<<<<<<
@@ -3082,7 +3082,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask._frString", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask._frString", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_Rs);
@@ -3094,7 +3094,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":137
+/* "libs/datasets/pycocotools/_mask.pyx":137
  * # encode mask to RLEs objects
  * # list of RLE string can be generated by RLEs member function
  * def encode(np.ndarray[np.uint8_t, ndim=3, mode='fortran'] mask):             # <<<<<<<<<<<<<<
@@ -3103,14 +3103,14 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_2_frString(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_5encode(PyObject *__pyx_self, PyObject *__pyx_v_mask); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_5encode = {"encode", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_5encode, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_5encode(PyObject *__pyx_self, PyObject *__pyx_v_mask) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_5encode(PyObject *__pyx_self, PyObject *__pyx_v_mask); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_5encode = {"encode", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_5encode, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_5encode(PyObject *__pyx_self, PyObject *__pyx_v_mask) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("encode (wrapper)", 0);
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_mask), __pyx_ptype_5numpy_ndarray, 1, "mask", 0))) __PYX_ERR(0, 137, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(__pyx_self, ((PyArrayObject *)__pyx_v_mask));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_4encode(__pyx_self, ((PyArrayObject *)__pyx_v_mask));
 
   /* function exit code */
   goto __pyx_L0;
@@ -3121,11 +3121,11 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_5encode(PyObject *__
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_mask) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_4encode(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_mask) {
   npy_intp __pyx_v_h;
   npy_intp __pyx_v_w;
   npy_intp __pyx_v_n;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
   PyObject *__pyx_v_objs = NULL;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_mask;
   __Pyx_Buffer __pyx_pybuffer_mask;
@@ -3149,7 +3149,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
   }
   __pyx_pybuffernd_mask.diminfo[0].strides = __pyx_pybuffernd_mask.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_mask.diminfo[0].shape = __pyx_pybuffernd_mask.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_mask.diminfo[1].strides = __pyx_pybuffernd_mask.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_mask.diminfo[1].shape = __pyx_pybuffernd_mask.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_mask.diminfo[2].strides = __pyx_pybuffernd_mask.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_mask.diminfo[2].shape = __pyx_pybuffernd_mask.rcbuffer->pybuffer.shape[2];
 
-  /* "thirdparty/pycocotools/_mask.pyx":138
+  /* "libs/datasets/pycocotools/_mask.pyx":138
  * # list of RLE string can be generated by RLEs member function
  * def encode(np.ndarray[np.uint8_t, ndim=3, mode='fortran'] mask):
  *     h, w, n = mask.shape[0], mask.shape[1], mask.shape[2]             # <<<<<<<<<<<<<<
@@ -3163,7 +3163,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
   __pyx_v_w = __pyx_t_2;
   __pyx_v_n = __pyx_t_3;
 
-  /* "thirdparty/pycocotools/_mask.pyx":139
+  /* "libs/datasets/pycocotools/_mask.pyx":139
  * def encode(np.ndarray[np.uint8_t, ndim=3, mode='fortran'] mask):
  *     h, w, n = mask.shape[0], mask.shape[1], mask.shape[2]
  *     cdef RLEs Rs = RLEs(n)             # <<<<<<<<<<<<<<
@@ -3177,13 +3177,13 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
   __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 139, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 139, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_4);
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":140
+  /* "libs/datasets/pycocotools/_mask.pyx":140
  *     h, w, n = mask.shape[0], mask.shape[1], mask.shape[2]
  *     cdef RLEs Rs = RLEs(n)
  *     rleEncode(Rs._R,<byte*>mask.data,h,w,n)             # <<<<<<<<<<<<<<
@@ -3192,7 +3192,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
  */
   rleEncode(__pyx_v_Rs->_R, ((byte *)__pyx_v_mask->data), __pyx_v_h, __pyx_v_w, __pyx_v_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":141
+  /* "libs/datasets/pycocotools/_mask.pyx":141
  *     cdef RLEs Rs = RLEs(n)
  *     rleEncode(Rs._R,<byte*>mask.data,h,w,n)
  *     objs = _toString(Rs)             # <<<<<<<<<<<<<<
@@ -3247,7 +3247,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
   __pyx_v_objs = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":142
+  /* "libs/datasets/pycocotools/_mask.pyx":142
  *     rleEncode(Rs._R,<byte*>mask.data,h,w,n)
  *     objs = _toString(Rs)
  *     return objs             # <<<<<<<<<<<<<<
@@ -3259,7 +3259,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
   __pyx_r = __pyx_v_objs;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":137
+  /* "libs/datasets/pycocotools/_mask.pyx":137
  * # encode mask to RLEs objects
  * # list of RLE string can be generated by RLEs member function
  * def encode(np.ndarray[np.uint8_t, ndim=3, mode='fortran'] mask):             # <<<<<<<<<<<<<<
@@ -3279,7 +3279,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_mask.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.encode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.encode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3292,7 +3292,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":145
+/* "libs/datasets/pycocotools/_mask.pyx":145
  * 
  * # decode mask from compressed list of RLE string or RLEs object
  * def decode(rleObjs):             # <<<<<<<<<<<<<<
@@ -3301,25 +3301,25 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_4encode(CYTHON_UNUSE
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_7decode(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_7decode = {"decode", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_7decode, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_7decode(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_7decode(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_7decode = {"decode", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_7decode, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_7decode(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decode (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_6decode(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_6decode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
   siz __pyx_v_h;
   siz __pyx_v_w;
   siz __pyx_v_n;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *__pyx_v_masks = NULL;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *__pyx_v_masks = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3331,7 +3331,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
   siz __pyx_t_7;
   __Pyx_RefNannySetupContext("decode", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":146
+  /* "libs/datasets/pycocotools/_mask.pyx":146
  * # decode mask from compressed list of RLE string or RLEs object
  * def decode(rleObjs):
  *     cdef RLEs Rs = _frString(rleObjs)             # <<<<<<<<<<<<<<
@@ -3383,11 +3383,11 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
     }
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 146, __pyx_L1_error)
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_1);
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 146, __pyx_L1_error)
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":147
+  /* "libs/datasets/pycocotools/_mask.pyx":147
  * def decode(rleObjs):
  *     cdef RLEs Rs = _frString(rleObjs)
  *     h, w, n = Rs._R[0].h, Rs._R[0].w, Rs._n             # <<<<<<<<<<<<<<
@@ -3401,7 +3401,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
   __pyx_v_w = __pyx_t_6;
   __pyx_v_n = __pyx_t_7;
 
-  /* "thirdparty/pycocotools/_mask.pyx":148
+  /* "libs/datasets/pycocotools/_mask.pyx":148
  *     cdef RLEs Rs = _frString(rleObjs)
  *     h, w, n = Rs._R[0].h, Rs._R[0].w, Rs._n
  *     masks = Masks(h, w, n)             # <<<<<<<<<<<<<<
@@ -3425,13 +3425,13 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
   __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_Masks), __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_Masks), __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_v_masks = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks *)__pyx_t_4);
+  __pyx_v_masks = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":149
+  /* "libs/datasets/pycocotools/_mask.pyx":149
  *     h, w, n = Rs._R[0].h, Rs._R[0].w, Rs._n
  *     masks = Masks(h, w, n)
  *     rleDecode(<RLE*>Rs._R, masks._mask, n);             # <<<<<<<<<<<<<<
@@ -3440,7 +3440,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
  */
   rleDecode(((RLE *)__pyx_v_Rs->_R), __pyx_v_masks->_mask, __pyx_v_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":150
+  /* "libs/datasets/pycocotools/_mask.pyx":150
  *     masks = Masks(h, w, n)
  *     rleDecode(<RLE*>Rs._R, masks._mask, n);
  *     return np.array(masks)             # <<<<<<<<<<<<<<
@@ -3500,7 +3500,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":145
+  /* "libs/datasets/pycocotools/_mask.pyx":145
  * 
  * # decode mask from compressed list of RLE string or RLEs object
  * def decode(rleObjs):             # <<<<<<<<<<<<<<
@@ -3514,7 +3514,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.decode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.decode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_Rs);
@@ -3524,7 +3524,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":152
+/* "libs/datasets/pycocotools/_mask.pyx":152
  *     return np.array(masks)
  * 
  * def merge(rleObjs, intersect=0):             # <<<<<<<<<<<<<<
@@ -3533,9 +3533,9 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_6decode(CYTHON_UNUSE
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_9merge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_9merge = {"merge", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_9merge, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_9merge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_9merge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_9merge = {"merge", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_9merge, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_9merge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_rleObjs = 0;
   PyObject *__pyx_v_intersect = 0;
   PyObject *__pyx_r = 0;
@@ -3583,20 +3583,20 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_9merge(PyObject *__p
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("merge", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 152, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.merge", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.merge", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(__pyx_self, __pyx_v_rleObjs, __pyx_v_intersect);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_8merge(__pyx_self, __pyx_v_rleObjs, __pyx_v_intersect);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs, PyObject *__pyx_v_intersect) {
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_R = 0;
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_8merge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs, PyObject *__pyx_v_intersect) {
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_R = 0;
   PyObject *__pyx_v_obj = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -3607,7 +3607,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
   int __pyx_t_5;
   __Pyx_RefNannySetupContext("merge", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":153
+  /* "libs/datasets/pycocotools/_mask.pyx":153
  * 
  * def merge(rleObjs, intersect=0):
  *     cdef RLEs Rs = _frString(rleObjs)             # <<<<<<<<<<<<<<
@@ -3659,23 +3659,23 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
     }
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 153, __pyx_L1_error)
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_1);
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 153, __pyx_L1_error)
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":154
+  /* "libs/datasets/pycocotools/_mask.pyx":154
  * def merge(rleObjs, intersect=0):
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef RLEs R = RLEs(1)             # <<<<<<<<<<<<<<
  *     rleMerge(<RLE*>Rs._R, <RLE*> R._R, <siz> Rs._n, intersect)
  *     obj = _toString(R)[0]
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 154, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_v_R = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_1);
+  __pyx_v_R = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":155
+  /* "libs/datasets/pycocotools/_mask.pyx":155
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef RLEs R = RLEs(1)
  *     rleMerge(<RLE*>Rs._R, <RLE*> R._R, <siz> Rs._n, intersect)             # <<<<<<<<<<<<<<
@@ -3685,7 +3685,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
   __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_v_intersect); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 155, __pyx_L1_error)
   rleMerge(((RLE *)__pyx_v_Rs->_R), ((RLE *)__pyx_v_R->_R), ((siz)__pyx_v_Rs->_n), __pyx_t_5);
 
-  /* "thirdparty/pycocotools/_mask.pyx":156
+  /* "libs/datasets/pycocotools/_mask.pyx":156
  *     cdef RLEs R = RLEs(1)
  *     rleMerge(<RLE*>Rs._R, <RLE*> R._R, <siz> Rs._n, intersect)
  *     obj = _toString(R)[0]             # <<<<<<<<<<<<<<
@@ -3743,7 +3743,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
   __pyx_v_obj = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":157
+  /* "libs/datasets/pycocotools/_mask.pyx":157
  *     rleMerge(<RLE*>Rs._R, <RLE*> R._R, <siz> Rs._n, intersect)
  *     obj = _toString(R)[0]
  *     return obj             # <<<<<<<<<<<<<<
@@ -3755,7 +3755,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
   __pyx_r = __pyx_v_obj;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":152
+  /* "libs/datasets/pycocotools/_mask.pyx":152
  *     return np.array(masks)
  * 
  * def merge(rleObjs, intersect=0):             # <<<<<<<<<<<<<<
@@ -3769,7 +3769,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.merge", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.merge", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_Rs);
@@ -3780,7 +3780,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":159
+/* "libs/datasets/pycocotools/_mask.pyx":159
  *     return obj
  * 
  * def area(rleObjs):             # <<<<<<<<<<<<<<
@@ -3789,21 +3789,21 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_8merge(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_11area(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_11area = {"area", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_11area, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_11area(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_11area(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_11area = {"area", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_11area, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_11area(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("area (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_10area(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_10area(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_10area(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
   uint *__pyx_v__a;
   npy_intp __pyx_v_shape[1];
   PyObject *__pyx_v_a = NULL;
@@ -3816,7 +3816,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("area", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":160
+  /* "libs/datasets/pycocotools/_mask.pyx":160
  * 
  * def area(rleObjs):
  *     cdef RLEs Rs = _frString(rleObjs)             # <<<<<<<<<<<<<<
@@ -3868,11 +3868,11 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
     }
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 160, __pyx_L1_error)
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_1);
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 160, __pyx_L1_error)
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":161
+  /* "libs/datasets/pycocotools/_mask.pyx":161
  * def area(rleObjs):
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef uint* _a = <uint*> malloc(Rs._n* sizeof(uint))             # <<<<<<<<<<<<<<
@@ -3881,7 +3881,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
  */
   __pyx_v__a = ((uint *)malloc((__pyx_v_Rs->_n * (sizeof(unsigned int)))));
 
-  /* "thirdparty/pycocotools/_mask.pyx":162
+  /* "libs/datasets/pycocotools/_mask.pyx":162
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef uint* _a = <uint*> malloc(Rs._n* sizeof(uint))
  *     rleArea(Rs._R, Rs._n, _a)             # <<<<<<<<<<<<<<
@@ -3890,7 +3890,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
  */
   rleArea(__pyx_v_Rs->_R, __pyx_v_Rs->_n, __pyx_v__a);
 
-  /* "thirdparty/pycocotools/_mask.pyx":164
+  /* "libs/datasets/pycocotools/_mask.pyx":164
  *     rleArea(Rs._R, Rs._n, _a)
  *     cdef np.npy_intp shape[1]
  *     shape[0] = <np.npy_intp> Rs._n             # <<<<<<<<<<<<<<
@@ -3899,7 +3899,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
  */
   (__pyx_v_shape[0]) = ((npy_intp)__pyx_v_Rs->_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":165
+  /* "libs/datasets/pycocotools/_mask.pyx":165
  *     cdef np.npy_intp shape[1]
  *     shape[0] = <np.npy_intp> Rs._n
  *     a = np.array((Rs._n, ), dtype=np.uint8)             # <<<<<<<<<<<<<<
@@ -3940,7 +3940,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
   __pyx_v_a = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":166
+  /* "libs/datasets/pycocotools/_mask.pyx":166
  *     shape[0] = <np.npy_intp> Rs._n
  *     a = np.array((Rs._n, ), dtype=np.uint8)
  *     a = np.PyArray_SimpleNewFromData(1, shape, np.NPY_UINT32, _a)             # <<<<<<<<<<<<<<
@@ -3952,7 +3952,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
   __Pyx_DECREF_SET(__pyx_v_a, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":167
+  /* "libs/datasets/pycocotools/_mask.pyx":167
  *     a = np.array((Rs._n, ), dtype=np.uint8)
  *     a = np.PyArray_SimpleNewFromData(1, shape, np.NPY_UINT32, _a)
  *     PyArray_ENABLEFLAGS(a, np.NPY_OWNDATA)             # <<<<<<<<<<<<<<
@@ -3962,7 +3962,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
   if (!(likely(((__pyx_v_a) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_a, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 167, __pyx_L1_error)
   PyArray_ENABLEFLAGS(((PyArrayObject *)__pyx_v_a), NPY_OWNDATA);
 
-  /* "thirdparty/pycocotools/_mask.pyx":168
+  /* "libs/datasets/pycocotools/_mask.pyx":168
  *     a = np.PyArray_SimpleNewFromData(1, shape, np.NPY_UINT32, _a)
  *     PyArray_ENABLEFLAGS(a, np.NPY_OWNDATA)
  *     return a             # <<<<<<<<<<<<<<
@@ -3974,7 +3974,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
   __pyx_r = __pyx_v_a;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":159
+  /* "libs/datasets/pycocotools/_mask.pyx":159
  *     return obj
  * 
  * def area(rleObjs):             # <<<<<<<<<<<<<<
@@ -3989,7 +3989,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.area", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.area", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_Rs);
@@ -3999,7 +3999,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":171
+/* "libs/datasets/pycocotools/_mask.pyx":171
  * 
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):             # <<<<<<<<<<<<<<
@@ -4008,9 +4008,9 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_10area(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_13iou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_13iou = {"iou", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_13iou, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_13iou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_13iou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_13iou = {"iou", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_13iou, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_13iou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_dt = 0;
   PyObject *__pyx_v_gt = 0;
   PyObject *__pyx_v_pyiscrowd = 0;
@@ -4064,18 +4064,18 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_13iou(PyObject *__py
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("iou", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 171, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(__pyx_self, __pyx_v_dt, __pyx_v_gt, __pyx_v_pyiscrowd);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_12iou(__pyx_self, __pyx_v_dt, __pyx_v_gt, __pyx_v_pyiscrowd);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":172
+/* "libs/datasets/pycocotools/_mask.pyx":172
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):
  *     def _preproc(objs):             # <<<<<<<<<<<<<<
@@ -4084,20 +4084,20 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_13iou(PyObject *__py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_1_preproc(PyObject *__pyx_self, PyObject *__pyx_v_objs); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_1_preproc = {"_preproc", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_1_preproc, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_1_preproc(PyObject *__pyx_self, PyObject *__pyx_v_objs) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_1_preproc(PyObject *__pyx_self, PyObject *__pyx_v_objs); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_1_preproc = {"_preproc", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_1_preproc, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_1_preproc(PyObject *__pyx_self, PyObject *__pyx_v_objs) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_preproc (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(__pyx_self, ((PyObject *)__pyx_v_objs));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou__preproc(__pyx_self, ((PyObject *)__pyx_v_objs));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_objs) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou__preproc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_objs) {
   PyObject *__pyx_v_isbox = NULL;
   PyObject *__pyx_v_isrle = NULL;
   PyObject *__pyx_v_obj = NULL;
@@ -4120,7 +4120,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   __Pyx_RefNannySetupContext("_preproc", 0);
   __Pyx_INCREF(__pyx_v_objs);
 
-  /* "thirdparty/pycocotools/_mask.pyx":173
+  /* "libs/datasets/pycocotools/_mask.pyx":173
  * def iou( dt, gt, pyiscrowd ):
  *     def _preproc(objs):
  *         if len(objs) == 0:             # <<<<<<<<<<<<<<
@@ -4131,7 +4131,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   __pyx_t_2 = ((__pyx_t_1 == 0) != 0);
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":174
+    /* "libs/datasets/pycocotools/_mask.pyx":174
  *     def _preproc(objs):
  *         if len(objs) == 0:
  *             return objs             # <<<<<<<<<<<<<<
@@ -4143,7 +4143,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __pyx_r = __pyx_v_objs;
     goto __pyx_L0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":173
+    /* "libs/datasets/pycocotools/_mask.pyx":173
  * def iou( dt, gt, pyiscrowd ):
  *     def _preproc(objs):
  *         if len(objs) == 0:             # <<<<<<<<<<<<<<
@@ -4152,7 +4152,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
  */
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":175
+  /* "libs/datasets/pycocotools/_mask.pyx":175
  *         if len(objs) == 0:
  *             return objs
  *         if type(objs) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -4164,7 +4164,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":176
+    /* "libs/datasets/pycocotools/_mask.pyx":176
  *             return objs
  *         if type(objs) == np.ndarray:
  *             if len(objs.shape) == 1:             # <<<<<<<<<<<<<<
@@ -4178,7 +4178,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __pyx_t_2 = ((__pyx_t_1 == 1) != 0);
     if (__pyx_t_2) {
 
-      /* "thirdparty/pycocotools/_mask.pyx":177
+      /* "libs/datasets/pycocotools/_mask.pyx":177
  *         if type(objs) == np.ndarray:
  *             if len(objs.shape) == 1:
  *                 objs = objs.reshape((objs[0], 1))             # <<<<<<<<<<<<<<
@@ -4246,7 +4246,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
       __Pyx_DECREF_SET(__pyx_v_objs, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "thirdparty/pycocotools/_mask.pyx":176
+      /* "libs/datasets/pycocotools/_mask.pyx":176
  *             return objs
  *         if type(objs) == np.ndarray:
  *             if len(objs.shape) == 1:             # <<<<<<<<<<<<<<
@@ -4255,7 +4255,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
  */
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":179
+    /* "libs/datasets/pycocotools/_mask.pyx":179
  *                 objs = objs.reshape((objs[0], 1))
  *             # check if it's Nx4 bbox
  *             if not len(objs.shape) == 2 or not objs.shape[1] == 4:             # <<<<<<<<<<<<<<
@@ -4287,7 +4287,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __pyx_L7_bool_binop_done:;
     if (__pyx_t_2) {
 
-      /* "thirdparty/pycocotools/_mask.pyx":180
+      /* "libs/datasets/pycocotools/_mask.pyx":180
  *             # check if it's Nx4 bbox
  *             if not len(objs.shape) == 2 or not objs.shape[1] == 4:
  *                 raise Exception('numpy ndarray input is only for *bounding boxes* and should have Nx4 dimension')             # <<<<<<<<<<<<<<
@@ -4300,7 +4300,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(0, 180, __pyx_L1_error)
 
-      /* "thirdparty/pycocotools/_mask.pyx":179
+      /* "libs/datasets/pycocotools/_mask.pyx":179
  *                 objs = objs.reshape((objs[0], 1))
  *             # check if it's Nx4 bbox
  *             if not len(objs.shape) == 2 or not objs.shape[1] == 4:             # <<<<<<<<<<<<<<
@@ -4309,7 +4309,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
  */
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":181
+    /* "libs/datasets/pycocotools/_mask.pyx":181
  *             if not len(objs.shape) == 2 or not objs.shape[1] == 4:
  *                 raise Exception('numpy ndarray input is only for *bounding boxes* and should have Nx4 dimension')
  *             objs = objs.astype(np.double)             # <<<<<<<<<<<<<<
@@ -4372,7 +4372,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __Pyx_DECREF_SET(__pyx_v_objs, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":175
+    /* "libs/datasets/pycocotools/_mask.pyx":175
  *         if len(objs) == 0:
  *             return objs
  *         if type(objs) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -4382,7 +4382,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     goto __pyx_L4;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":182
+  /* "libs/datasets/pycocotools/_mask.pyx":182
  *                 raise Exception('numpy ndarray input is only for *bounding boxes* and should have Nx4 dimension')
  *             objs = objs.astype(np.double)
  *         elif type(objs) == list:             # <<<<<<<<<<<<<<
@@ -4394,7 +4394,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":184
+    /* "libs/datasets/pycocotools/_mask.pyx":184
  *         elif type(objs) == list:
  *             # check if list is in box format and convert it to np.ndarray
  *             isbox = np.all(np.array([(len(obj)==4) and ((type(obj)==list) or (type(obj)==np.ndarray)) for obj in objs]))             # <<<<<<<<<<<<<<
@@ -4578,7 +4578,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __pyx_v_isbox = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":185
+    /* "libs/datasets/pycocotools/_mask.pyx":185
  *             # check if list is in box format and convert it to np.ndarray
  *             isbox = np.all(np.array([(len(obj)==4) and ((type(obj)==list) or (type(obj)==np.ndarray)) for obj in objs]))
  *             isrle = np.all(np.array([type(obj) == dict for obj in objs]))             # <<<<<<<<<<<<<<
@@ -4738,7 +4738,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __pyx_v_isrle = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":186
+    /* "libs/datasets/pycocotools/_mask.pyx":186
  *             isbox = np.all(np.array([(len(obj)==4) and ((type(obj)==list) or (type(obj)==np.ndarray)) for obj in objs]))
  *             isrle = np.all(np.array([type(obj) == dict for obj in objs]))
  *             if isbox:             # <<<<<<<<<<<<<<
@@ -4748,7 +4748,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_isbox); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 186, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "thirdparty/pycocotools/_mask.pyx":187
+      /* "libs/datasets/pycocotools/_mask.pyx":187
  *             isrle = np.all(np.array([type(obj) == dict for obj in objs]))
  *             if isbox:
  *                 objs = np.array(objs, dtype=np.double)             # <<<<<<<<<<<<<<
@@ -4782,7 +4782,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
       __Pyx_DECREF_SET(__pyx_v_objs, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "thirdparty/pycocotools/_mask.pyx":188
+      /* "libs/datasets/pycocotools/_mask.pyx":188
  *             if isbox:
  *                 objs = np.array(objs, dtype=np.double)
  *                 if len(objs.shape) == 1:             # <<<<<<<<<<<<<<
@@ -4796,7 +4796,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
       __pyx_t_2 = ((__pyx_t_1 == 1) != 0);
       if (__pyx_t_2) {
 
-        /* "thirdparty/pycocotools/_mask.pyx":189
+        /* "libs/datasets/pycocotools/_mask.pyx":189
  *                 objs = np.array(objs, dtype=np.double)
  *                 if len(objs.shape) == 1:
  *                     objs = objs.reshape((1,objs.shape[0]))             # <<<<<<<<<<<<<<
@@ -4867,7 +4867,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
         __Pyx_DECREF_SET(__pyx_v_objs, __pyx_t_7);
         __pyx_t_7 = 0;
 
-        /* "thirdparty/pycocotools/_mask.pyx":188
+        /* "libs/datasets/pycocotools/_mask.pyx":188
  *             if isbox:
  *                 objs = np.array(objs, dtype=np.double)
  *                 if len(objs.shape) == 1:             # <<<<<<<<<<<<<<
@@ -4876,7 +4876,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
  */
       }
 
-      /* "thirdparty/pycocotools/_mask.pyx":186
+      /* "libs/datasets/pycocotools/_mask.pyx":186
  *             isbox = np.all(np.array([(len(obj)==4) and ((type(obj)==list) or (type(obj)==np.ndarray)) for obj in objs]))
  *             isrle = np.all(np.array([type(obj) == dict for obj in objs]))
  *             if isbox:             # <<<<<<<<<<<<<<
@@ -4886,7 +4886,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
       goto __pyx_L16;
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":190
+    /* "libs/datasets/pycocotools/_mask.pyx":190
  *                 if len(objs.shape) == 1:
  *                     objs = objs.reshape((1,objs.shape[0]))
  *             elif isrle:             # <<<<<<<<<<<<<<
@@ -4896,7 +4896,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_isrle); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 190, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "thirdparty/pycocotools/_mask.pyx":191
+      /* "libs/datasets/pycocotools/_mask.pyx":191
  *                     objs = objs.reshape((1,objs.shape[0]))
  *             elif isrle:
  *                 objs = _frString(objs)             # <<<<<<<<<<<<<<
@@ -4951,7 +4951,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
       __Pyx_DECREF_SET(__pyx_v_objs, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "thirdparty/pycocotools/_mask.pyx":190
+      /* "libs/datasets/pycocotools/_mask.pyx":190
  *                 if len(objs.shape) == 1:
  *                     objs = objs.reshape((1,objs.shape[0]))
  *             elif isrle:             # <<<<<<<<<<<<<<
@@ -4961,7 +4961,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
       goto __pyx_L16;
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":193
+    /* "libs/datasets/pycocotools/_mask.pyx":193
  *                 objs = _frString(objs)
  *             else:
  *                 raise Exception('list input can be bounding box (Nx4) or RLEs ([RLE])')             # <<<<<<<<<<<<<<
@@ -4977,7 +4977,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     }
     __pyx_L16:;
 
-    /* "thirdparty/pycocotools/_mask.pyx":182
+    /* "libs/datasets/pycocotools/_mask.pyx":182
  *                 raise Exception('numpy ndarray input is only for *bounding boxes* and should have Nx4 dimension')
  *             objs = objs.astype(np.double)
  *         elif type(objs) == list:             # <<<<<<<<<<<<<<
@@ -4987,7 +4987,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
     goto __pyx_L4;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":195
+  /* "libs/datasets/pycocotools/_mask.pyx":195
  *                 raise Exception('list input can be bounding box (Nx4) or RLEs ([RLE])')
  *         else:
  *             raise Exception('unrecognized type.  The following type: RLEs (rle), np.ndarray (box), and list (box) are supported.')             # <<<<<<<<<<<<<<
@@ -5003,7 +5003,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   }
   __pyx_L4:;
 
-  /* "thirdparty/pycocotools/_mask.pyx":196
+  /* "libs/datasets/pycocotools/_mask.pyx":196
  *         else:
  *             raise Exception('unrecognized type.  The following type: RLEs (rle), np.ndarray (box), and list (box) are supported.')
  *         return objs             # <<<<<<<<<<<<<<
@@ -5015,7 +5015,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   __pyx_r = __pyx_v_objs;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":172
+  /* "libs/datasets/pycocotools/_mask.pyx":172
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):
  *     def _preproc(objs):             # <<<<<<<<<<<<<<
@@ -5033,7 +5033,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_12);
   __Pyx_XDECREF(__pyx_t_14);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou._preproc", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou._preproc", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_isbox);
@@ -5045,7 +5045,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":197
+/* "libs/datasets/pycocotools/_mask.pyx":197
  *             raise Exception('unrecognized type.  The following type: RLEs (rle), np.ndarray (box), and list (box) are supported.')
  *         return objs
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):             # <<<<<<<<<<<<<<
@@ -5054,11 +5054,11 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou = {"_rleIou", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_dt = 0;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_gt = 0;
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_3_rleIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_3_rleIou = {"_rleIou", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_3_rleIou, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_3_rleIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_dt = 0;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_gt = 0;
   PyArrayObject *__pyx_v_iscrowd = 0;
   siz __pyx_v_m;
   siz __pyx_v_n;
@@ -5126,8 +5126,8 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou(PyObje
       values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
       values[5] = PyTuple_GET_ITEM(__pyx_args, 5);
     }
-    __pyx_v_dt = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)values[0]);
-    __pyx_v_gt = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)values[1]);
+    __pyx_v_dt = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)values[0]);
+    __pyx_v_gt = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)values[1]);
     __pyx_v_iscrowd = ((PyArrayObject *)values[2]);
     __pyx_v_m = __Pyx_PyInt_As_siz(values[3]); if (unlikely((__pyx_v_m == ((siz)-1)) && PyErr_Occurred())) __PYX_ERR(0, 197, __pyx_L3_error)
     __pyx_v_n = __Pyx_PyInt_As_siz(values[4]); if (unlikely((__pyx_v_n == ((siz)-1)) && PyErr_Occurred())) __PYX_ERR(0, 197, __pyx_L3_error)
@@ -5137,15 +5137,15 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_rleIou", 1, 6, 6, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 197, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou._rleIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou._rleIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_dt), __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs, 1, "dt", 0))) __PYX_ERR(0, 197, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_gt), __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs, 1, "gt", 0))) __PYX_ERR(0, 197, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_dt), __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs, 1, "dt", 0))) __PYX_ERR(0, 197, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_gt), __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs, 1, "gt", 0))) __PYX_ERR(0, 197, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_iscrowd), __pyx_ptype_5numpy_ndarray, 1, "iscrowd", 0))) __PYX_ERR(0, 197, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v__iou), __pyx_ptype_5numpy_ndarray, 1, "_iou", 0))) __PYX_ERR(0, 197, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(__pyx_self, __pyx_v_dt, __pyx_v_gt, __pyx_v_iscrowd, __pyx_v_m, __pyx_v_n, __pyx_v__iou);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_2_rleIou(__pyx_self, __pyx_v_dt, __pyx_v_gt, __pyx_v_iscrowd, __pyx_v_m, __pyx_v_n, __pyx_v__iou);
 
   /* function exit code */
   goto __pyx_L0;
@@ -5156,7 +5156,7 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou(PyObje
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_dt, struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_2_rleIou(CYTHON_UNUSED PyObject *__pyx_self, struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_dt, struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou) {
   __Pyx_LocalBuf_ND __pyx_pybuffernd__iou;
   __Pyx_Buffer __pyx_pybuffer__iou;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_iscrowd;
@@ -5183,7 +5183,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(CYTHON
   }
   __pyx_pybuffernd__iou.diminfo[0].strides = __pyx_pybuffernd__iou.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd__iou.diminfo[0].shape = __pyx_pybuffernd__iou.rcbuffer->pybuffer.shape[0];
 
-  /* "thirdparty/pycocotools/_mask.pyx":198
+  /* "libs/datasets/pycocotools/_mask.pyx":198
  *         return objs
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):
  *         rleIou( <RLE*> dt._R, <RLE*> gt._R, m, n, <byte*> iscrowd.data, <double*> _iou.data )             # <<<<<<<<<<<<<<
@@ -5192,7 +5192,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(CYTHON
  */
   rleIou(((RLE *)__pyx_v_dt->_R), ((RLE *)__pyx_v_gt->_R), __pyx_v_m, __pyx_v_n, ((byte *)__pyx_v_iscrowd->data), ((double *)__pyx_v__iou->data));
 
-  /* "thirdparty/pycocotools/_mask.pyx":197
+  /* "libs/datasets/pycocotools/_mask.pyx":197
  *             raise Exception('unrecognized type.  The following type: RLEs (rle), np.ndarray (box), and list (box) are supported.')
  *         return objs
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):             # <<<<<<<<<<<<<<
@@ -5211,7 +5211,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(CYTHON
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd__iou.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_iscrowd.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou._rleIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou._rleIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -5223,7 +5223,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(CYTHON
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":199
+/* "libs/datasets/pycocotools/_mask.pyx":199
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):
  *         rleIou( <RLE*> dt._R, <RLE*> gt._R, m, n, <byte*> iscrowd.data, <double*> _iou.data )
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):             # <<<<<<<<<<<<<<
@@ -5232,9 +5232,9 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_2_rleIou(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou = {"_bbIou", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_5_bbIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_5_bbIou = {"_bbIou", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_5_bbIou, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_5_bbIou(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_dt = 0;
   PyArrayObject *__pyx_v_gt = 0;
   PyArrayObject *__pyx_v_iscrowd = 0;
@@ -5315,7 +5315,7 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou(PyObjec
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_bbIou", 1, 6, 6, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 199, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou._bbIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou._bbIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
@@ -5323,7 +5323,7 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou(PyObjec
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_gt), __pyx_ptype_5numpy_ndarray, 1, "gt", 0))) __PYX_ERR(0, 199, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_iscrowd), __pyx_ptype_5numpy_ndarray, 1, "iscrowd", 0))) __PYX_ERR(0, 199, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v__iou), __pyx_ptype_5numpy_ndarray, 1, "_iou", 0))) __PYX_ERR(0, 199, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(__pyx_self, __pyx_v_dt, __pyx_v_gt, __pyx_v_iscrowd, __pyx_v_m, __pyx_v_n, __pyx_v__iou);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_4_bbIou(__pyx_self, __pyx_v_dt, __pyx_v_gt, __pyx_v_iscrowd, __pyx_v_m, __pyx_v_n, __pyx_v__iou);
 
   /* function exit code */
   goto __pyx_L0;
@@ -5334,7 +5334,7 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou(PyObjec
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_dt, PyArrayObject *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_dt, PyArrayObject *__pyx_v_gt, PyArrayObject *__pyx_v_iscrowd, siz __pyx_v_m, siz __pyx_v_n, PyArrayObject *__pyx_v__iou) {
   __Pyx_LocalBuf_ND __pyx_pybuffernd__iou;
   __Pyx_Buffer __pyx_pybuffer__iou;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_dt;
@@ -5383,7 +5383,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_
   }
   __pyx_pybuffernd__iou.diminfo[0].strides = __pyx_pybuffernd__iou.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd__iou.diminfo[0].shape = __pyx_pybuffernd__iou.rcbuffer->pybuffer.shape[0];
 
-  /* "thirdparty/pycocotools/_mask.pyx":200
+  /* "libs/datasets/pycocotools/_mask.pyx":200
  *         rleIou( <RLE*> dt._R, <RLE*> gt._R, m, n, <byte*> iscrowd.data, <double*> _iou.data )
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):
  *         bbIou( <BB> dt.data, <BB> gt.data, m, n, <byte*> iscrowd.data, <double*>_iou.data )             # <<<<<<<<<<<<<<
@@ -5392,7 +5392,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_
  */
   bbIou(((BB)__pyx_v_dt->data), ((BB)__pyx_v_gt->data), __pyx_v_m, __pyx_v_n, ((byte *)__pyx_v_iscrowd->data), ((double *)__pyx_v__iou->data));
 
-  /* "thirdparty/pycocotools/_mask.pyx":199
+  /* "libs/datasets/pycocotools/_mask.pyx":199
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):
  *         rleIou( <RLE*> dt._R, <RLE*> gt._R, m, n, <byte*> iscrowd.data, <double*> _iou.data )
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):             # <<<<<<<<<<<<<<
@@ -5413,7 +5413,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_gt.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_iscrowd.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou._bbIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou._bbIou", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -5427,7 +5427,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":201
+/* "libs/datasets/pycocotools/_mask.pyx":201
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):
  *         bbIou( <BB> dt.data, <BB> gt.data, m, n, <byte*> iscrowd.data, <double*>_iou.data )
  *     def _len(obj):             # <<<<<<<<<<<<<<
@@ -5436,20 +5436,20 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_4_bbIou(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_7_len(PyObject *__pyx_self, PyObject *__pyx_v_obj); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_7_len = {"_len", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_7_len, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_3iou_7_len(PyObject *__pyx_self, PyObject *__pyx_v_obj) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_7_len(PyObject *__pyx_self, PyObject *__pyx_v_obj); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_7_len = {"_len", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_7_len, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_3iou_7_len(PyObject *__pyx_self, PyObject *__pyx_v_obj) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_len (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(__pyx_self, ((PyObject *)__pyx_v_obj));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_6_len(__pyx_self, ((PyObject *)__pyx_v_obj));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_6_len(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj) {
   siz __pyx_v_N;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -5460,7 +5460,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("_len", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":202
+  /* "libs/datasets/pycocotools/_mask.pyx":202
  *         bbIou( <BB> dt.data, <BB> gt.data, m, n, <byte*> iscrowd.data, <double*>_iou.data )
  *     def _len(obj):
  *         cdef siz N = 0             # <<<<<<<<<<<<<<
@@ -5469,19 +5469,19 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
  */
   __pyx_v_N = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":203
+  /* "libs/datasets/pycocotools/_mask.pyx":203
  *     def _len(obj):
  *         cdef siz N = 0
  *         if type(obj) == RLEs:             # <<<<<<<<<<<<<<
  *             N = obj.n
  *         elif len(obj)==0:
  */
-  __pyx_t_1 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_obj)), ((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_1 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_obj)), ((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 203, __pyx_L1_error)
   __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 203, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":204
+    /* "libs/datasets/pycocotools/_mask.pyx":204
  *         cdef siz N = 0
  *         if type(obj) == RLEs:
  *             N = obj.n             # <<<<<<<<<<<<<<
@@ -5494,7 +5494,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_v_N = __pyx_t_3;
 
-    /* "thirdparty/pycocotools/_mask.pyx":203
+    /* "libs/datasets/pycocotools/_mask.pyx":203
  *     def _len(obj):
  *         cdef siz N = 0
  *         if type(obj) == RLEs:             # <<<<<<<<<<<<<<
@@ -5504,7 +5504,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":205
+  /* "libs/datasets/pycocotools/_mask.pyx":205
  *         if type(obj) == RLEs:
  *             N = obj.n
  *         elif len(obj)==0:             # <<<<<<<<<<<<<<
@@ -5517,7 +5517,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":207
+  /* "libs/datasets/pycocotools/_mask.pyx":207
  *         elif len(obj)==0:
  *             pass
  *         elif type(obj) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -5529,7 +5529,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":208
+    /* "libs/datasets/pycocotools/_mask.pyx":208
  *             pass
  *         elif type(obj) == np.ndarray:
  *             N = obj.shape[0]             # <<<<<<<<<<<<<<
@@ -5545,7 +5545,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_N = __pyx_t_3;
 
-    /* "thirdparty/pycocotools/_mask.pyx":207
+    /* "libs/datasets/pycocotools/_mask.pyx":207
  *         elif len(obj)==0:
  *             pass
  *         elif type(obj) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -5555,7 +5555,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
   }
   __pyx_L3:;
 
-  /* "thirdparty/pycocotools/_mask.pyx":209
+  /* "libs/datasets/pycocotools/_mask.pyx":209
  *         elif type(obj) == np.ndarray:
  *             N = obj.shape[0]
  *         return N             # <<<<<<<<<<<<<<
@@ -5569,7 +5569,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":201
+  /* "libs/datasets/pycocotools/_mask.pyx":201
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):
  *         bbIou( <BB> dt.data, <BB> gt.data, m, n, <byte*> iscrowd.data, <double*>_iou.data )
  *     def _len(obj):             # <<<<<<<<<<<<<<
@@ -5581,7 +5581,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou._len", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou._len", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5589,7 +5589,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":171
+/* "libs/datasets/pycocotools/_mask.pyx":171
  * 
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):             # <<<<<<<<<<<<<<
@@ -5597,7 +5597,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(CYTHON_UN
  *         if len(objs) == 0:
  */
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dt, PyObject *__pyx_v_gt, PyObject *__pyx_v_pyiscrowd) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_12iou(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dt, PyObject *__pyx_v_gt, PyObject *__pyx_v_pyiscrowd) {
   PyObject *__pyx_v__preproc = 0;
   PyObject *__pyx_v__rleIou = 0;
   PyObject *__pyx_v__bbIou = 0;
@@ -5632,55 +5632,55 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __pyx_pybuffernd_iscrowd.data = NULL;
   __pyx_pybuffernd_iscrowd.rcbuffer = &__pyx_pybuffer_iscrowd;
 
-  /* "thirdparty/pycocotools/_mask.pyx":172
+  /* "libs/datasets/pycocotools/_mask.pyx":172
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):
  *     def _preproc(objs):             # <<<<<<<<<<<<<<
  *         if len(objs) == 0:
  *             return objs
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_1_preproc, 0, __pyx_n_s_iou_locals__preproc, NULL, __pyx_n_s_thirdparty_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__8)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 172, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_1_preproc, 0, __pyx_n_s_iou_locals__preproc, NULL, __pyx_n_s_libs_datasets_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__8)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__preproc = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":197
+  /* "libs/datasets/pycocotools/_mask.pyx":197
  *             raise Exception('unrecognized type.  The following type: RLEs (rle), np.ndarray (box), and list (box) are supported.')
  *         return objs
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):             # <<<<<<<<<<<<<<
  *         rleIou( <RLE*> dt._R, <RLE*> gt._R, m, n, <byte*> iscrowd.data, <double*> _iou.data )
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_3_rleIou, 0, __pyx_n_s_iou_locals__rleIou, NULL, __pyx_n_s_thirdparty_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__10)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_3_rleIou, 0, __pyx_n_s_iou_locals__rleIou, NULL, __pyx_n_s_libs_datasets_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__10)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__rleIou = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":199
+  /* "libs/datasets/pycocotools/_mask.pyx":199
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):
  *         rleIou( <RLE*> dt._R, <RLE*> gt._R, m, n, <byte*> iscrowd.data, <double*> _iou.data )
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):             # <<<<<<<<<<<<<<
  *         bbIou( <BB> dt.data, <BB> gt.data, m, n, <byte*> iscrowd.data, <double*>_iou.data )
  *     def _len(obj):
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_5_bbIou, 0, __pyx_n_s_iou_locals__bbIou, NULL, __pyx_n_s_thirdparty_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_5_bbIou, 0, __pyx_n_s_iou_locals__bbIou, NULL, __pyx_n_s_libs_datasets_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__bbIou = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":201
+  /* "libs/datasets/pycocotools/_mask.pyx":201
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):
  *         bbIou( <BB> dt.data, <BB> gt.data, m, n, <byte*> iscrowd.data, <double*>_iou.data )
  *     def _len(obj):             # <<<<<<<<<<<<<<
  *         cdef siz N = 0
  *         if type(obj) == RLEs:
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_3iou_7_len, 0, __pyx_n_s_iou_locals__len, NULL, __pyx_n_s_thirdparty_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__14)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3iou_7_len, 0, __pyx_n_s_iou_locals__len, NULL, __pyx_n_s_libs_datasets_pycocotools__mask, __pyx_d, ((PyObject *)__pyx_codeobj__14)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__len = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":211
+  /* "libs/datasets/pycocotools/_mask.pyx":211
  *         return N
  *     # convert iscrowd to numpy array
  *     cdef np.ndarray[np.uint8_t, ndim=1] iscrowd = np.array(pyiscrowd, dtype=np.uint8)             # <<<<<<<<<<<<<<
@@ -5725,57 +5725,57 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __pyx_v_iscrowd = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":214
+  /* "libs/datasets/pycocotools/_mask.pyx":214
  *     # simple type checking
  *     cdef siz m, n
  *     dt = _preproc(dt)             # <<<<<<<<<<<<<<
  *     gt = _preproc(gt)
  *     m = _len(dt)
  */
-  __pyx_t_5 = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(__pyx_v__preproc, __pyx_v_dt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 214, __pyx_L1_error)
+  __pyx_t_5 = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou__preproc(__pyx_v__preproc, __pyx_v_dt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF_SET(__pyx_v_dt, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":215
+  /* "libs/datasets/pycocotools/_mask.pyx":215
  *     cdef siz m, n
  *     dt = _preproc(dt)
  *     gt = _preproc(gt)             # <<<<<<<<<<<<<<
  *     m = _len(dt)
  *     n = _len(gt)
  */
-  __pyx_t_5 = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou__preproc(__pyx_v__preproc, __pyx_v_gt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
+  __pyx_t_5 = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou__preproc(__pyx_v__preproc, __pyx_v_gt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF_SET(__pyx_v_gt, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":216
+  /* "libs/datasets/pycocotools/_mask.pyx":216
  *     dt = _preproc(dt)
  *     gt = _preproc(gt)
  *     m = _len(dt)             # <<<<<<<<<<<<<<
  *     n = _len(gt)
  *     if m == 0 or n == 0:
  */
-  __pyx_t_5 = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(__pyx_v__len, __pyx_v_dt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 216, __pyx_L1_error)
+  __pyx_t_5 = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_6_len(__pyx_v__len, __pyx_v_dt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 216, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_7 = __Pyx_PyInt_As_siz(__pyx_t_5); if (unlikely((__pyx_t_7 == ((siz)-1)) && PyErr_Occurred())) __PYX_ERR(0, 216, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_m = __pyx_t_7;
 
-  /* "thirdparty/pycocotools/_mask.pyx":217
+  /* "libs/datasets/pycocotools/_mask.pyx":217
  *     gt = _preproc(gt)
  *     m = _len(dt)
  *     n = _len(gt)             # <<<<<<<<<<<<<<
  *     if m == 0 or n == 0:
  *         return []
  */
-  __pyx_t_5 = __pyx_pf_10thirdparty_11pycocotools_5_mask_3iou_6_len(__pyx_v__len, __pyx_v_gt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 217, __pyx_L1_error)
+  __pyx_t_5 = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_3iou_6_len(__pyx_v__len, __pyx_v_gt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 217, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_7 = __Pyx_PyInt_As_siz(__pyx_t_5); if (unlikely((__pyx_t_7 == ((siz)-1)) && PyErr_Occurred())) __PYX_ERR(0, 217, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_n = __pyx_t_7;
 
-  /* "thirdparty/pycocotools/_mask.pyx":218
+  /* "libs/datasets/pycocotools/_mask.pyx":218
  *     m = _len(dt)
  *     n = _len(gt)
  *     if m == 0 or n == 0:             # <<<<<<<<<<<<<<
@@ -5793,7 +5793,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_8) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":219
+    /* "libs/datasets/pycocotools/_mask.pyx":219
  *     n = _len(gt)
  *     if m == 0 or n == 0:
  *         return []             # <<<<<<<<<<<<<<
@@ -5807,7 +5807,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
     __pyx_t_5 = 0;
     goto __pyx_L0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":218
+    /* "libs/datasets/pycocotools/_mask.pyx":218
  *     m = _len(dt)
  *     n = _len(gt)
  *     if m == 0 or n == 0:             # <<<<<<<<<<<<<<
@@ -5816,7 +5816,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
  */
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":220
+  /* "libs/datasets/pycocotools/_mask.pyx":220
  *     if m == 0 or n == 0:
  *         return []
  *     if not type(dt) == type(gt):             # <<<<<<<<<<<<<<
@@ -5829,7 +5829,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __pyx_t_9 = ((!__pyx_t_8) != 0);
   if (__pyx_t_9) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":221
+    /* "libs/datasets/pycocotools/_mask.pyx":221
  *         return []
  *     if not type(dt) == type(gt):
  *         raise Exception('The dt and gt should have the same data type, either RLEs, list or np.ndarray')             # <<<<<<<<<<<<<<
@@ -5842,7 +5842,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_ERR(0, 221, __pyx_L1_error)
 
-    /* "thirdparty/pycocotools/_mask.pyx":220
+    /* "libs/datasets/pycocotools/_mask.pyx":220
  *     if m == 0 or n == 0:
  *         return []
  *     if not type(dt) == type(gt):             # <<<<<<<<<<<<<<
@@ -5851,7 +5851,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
  */
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":224
+  /* "libs/datasets/pycocotools/_mask.pyx":224
  * 
  *     # define local variables
  *     cdef double* _iou = <double*> 0             # <<<<<<<<<<<<<<
@@ -5860,19 +5860,19 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
  */
   __pyx_v__iou = ((double *)0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":227
+  /* "libs/datasets/pycocotools/_mask.pyx":227
  *     cdef np.npy_intp shape[1]
  *     # check type and assign iou function
  *     if type(dt) == RLEs:             # <<<<<<<<<<<<<<
  *         _iouFun = _rleIou
  *     elif type(dt) == np.ndarray:
  */
-  __pyx_t_5 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_dt)), ((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), Py_EQ); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 227, __pyx_L1_error)
+  __pyx_t_5 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_dt)), ((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), Py_EQ); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 227, __pyx_L1_error)
   __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 227, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   if (__pyx_t_9) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":228
+    /* "libs/datasets/pycocotools/_mask.pyx":228
  *     # check type and assign iou function
  *     if type(dt) == RLEs:
  *         _iouFun = _rleIou             # <<<<<<<<<<<<<<
@@ -5882,7 +5882,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
     __Pyx_INCREF(__pyx_v__rleIou);
     __pyx_v__iouFun = __pyx_v__rleIou;
 
-    /* "thirdparty/pycocotools/_mask.pyx":227
+    /* "libs/datasets/pycocotools/_mask.pyx":227
  *     cdef np.npy_intp shape[1]
  *     # check type and assign iou function
  *     if type(dt) == RLEs:             # <<<<<<<<<<<<<<
@@ -5892,7 +5892,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
     goto __pyx_L7;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":229
+  /* "libs/datasets/pycocotools/_mask.pyx":229
  *     if type(dt) == RLEs:
  *         _iouFun = _rleIou
  *     elif type(dt) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -5904,7 +5904,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   if (__pyx_t_9) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":230
+    /* "libs/datasets/pycocotools/_mask.pyx":230
  *         _iouFun = _rleIou
  *     elif type(dt) == np.ndarray:
  *         _iouFun = _bbIou             # <<<<<<<<<<<<<<
@@ -5914,7 +5914,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
     __Pyx_INCREF(__pyx_v__bbIou);
     __pyx_v__iouFun = __pyx_v__bbIou;
 
-    /* "thirdparty/pycocotools/_mask.pyx":229
+    /* "libs/datasets/pycocotools/_mask.pyx":229
  *     if type(dt) == RLEs:
  *         _iouFun = _rleIou
  *     elif type(dt) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -5924,7 +5924,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
     goto __pyx_L7;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":232
+  /* "libs/datasets/pycocotools/_mask.pyx":232
  *         _iouFun = _bbIou
  *     else:
  *         raise Exception('input data type not allowed.')             # <<<<<<<<<<<<<<
@@ -5940,7 +5940,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   }
   __pyx_L7:;
 
-  /* "thirdparty/pycocotools/_mask.pyx":233
+  /* "libs/datasets/pycocotools/_mask.pyx":233
  *     else:
  *         raise Exception('input data type not allowed.')
  *     _iou = <double*> malloc(m*n* sizeof(double))             # <<<<<<<<<<<<<<
@@ -5949,7 +5949,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
  */
   __pyx_v__iou = ((double *)malloc(((__pyx_v_m * __pyx_v_n) * (sizeof(double)))));
 
-  /* "thirdparty/pycocotools/_mask.pyx":234
+  /* "libs/datasets/pycocotools/_mask.pyx":234
  *         raise Exception('input data type not allowed.')
  *     _iou = <double*> malloc(m*n* sizeof(double))
  *     iou = np.zeros((m*n, ), dtype=np.double)             # <<<<<<<<<<<<<<
@@ -5990,7 +5990,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __pyx_v_iou = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":235
+  /* "libs/datasets/pycocotools/_mask.pyx":235
  *     _iou = <double*> malloc(m*n* sizeof(double))
  *     iou = np.zeros((m*n, ), dtype=np.double)
  *     shape[0] = <np.npy_intp> m*n             # <<<<<<<<<<<<<<
@@ -5999,7 +5999,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
  */
   (__pyx_v_shape[0]) = (((npy_intp)__pyx_v_m) * __pyx_v_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":236
+  /* "libs/datasets/pycocotools/_mask.pyx":236
  *     iou = np.zeros((m*n, ), dtype=np.double)
  *     shape[0] = <np.npy_intp> m*n
  *     iou = np.PyArray_SimpleNewFromData(1, shape, np.NPY_DOUBLE, _iou)             # <<<<<<<<<<<<<<
@@ -6011,7 +6011,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __Pyx_DECREF_SET(__pyx_v_iou, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":237
+  /* "libs/datasets/pycocotools/_mask.pyx":237
  *     shape[0] = <np.npy_intp> m*n
  *     iou = np.PyArray_SimpleNewFromData(1, shape, np.NPY_DOUBLE, _iou)
  *     PyArray_ENABLEFLAGS(iou, np.NPY_OWNDATA)             # <<<<<<<<<<<<<<
@@ -6021,7 +6021,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   if (!(likely(((__pyx_v_iou) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_iou, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 237, __pyx_L1_error)
   PyArray_ENABLEFLAGS(((PyArrayObject *)__pyx_v_iou), NPY_OWNDATA);
 
-  /* "thirdparty/pycocotools/_mask.pyx":238
+  /* "libs/datasets/pycocotools/_mask.pyx":238
  *     iou = np.PyArray_SimpleNewFromData(1, shape, np.NPY_DOUBLE, _iou)
  *     PyArray_ENABLEFLAGS(iou, np.NPY_OWNDATA)
  *     _iouFun(dt, gt, iscrowd, m, n, iou)             # <<<<<<<<<<<<<<
@@ -6096,7 +6096,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":239
+  /* "libs/datasets/pycocotools/_mask.pyx":239
  *     PyArray_ENABLEFLAGS(iou, np.NPY_OWNDATA)
  *     _iouFun(dt, gt, iscrowd, m, n, iou)
  *     return iou.reshape((m,n), order='F')             # <<<<<<<<<<<<<<
@@ -6135,7 +6135,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":171
+  /* "libs/datasets/pycocotools/_mask.pyx":171
  * 
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):             # <<<<<<<<<<<<<<
@@ -6157,7 +6157,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_iscrowd.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.iou", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.iou", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -6177,7 +6177,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":241
+/* "libs/datasets/pycocotools/_mask.pyx":241
  *     return iou.reshape((m,n), order='F')
  * 
  * def toBbox( rleObjs ):             # <<<<<<<<<<<<<<
@@ -6186,21 +6186,21 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_12iou(CYTHON_UNUSED 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_15toBbox(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_15toBbox = {"toBbox", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_15toBbox, METH_O, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_15toBbox(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_15toBbox(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_15toBbox = {"toBbox", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_15toBbox, METH_O, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_15toBbox(PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("toBbox (wrapper)", 0);
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_14toBbox(__pyx_self, ((PyObject *)__pyx_v_rleObjs));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_14toBbox(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_rleObjs) {
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = 0;
   siz __pyx_v_n;
   BB __pyx_v__bb;
   npy_intp __pyx_v_shape[1];
@@ -6215,7 +6215,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   PyObject *__pyx_t_6 = NULL;
   __Pyx_RefNannySetupContext("toBbox", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":242
+  /* "libs/datasets/pycocotools/_mask.pyx":242
  * 
  * def toBbox( rleObjs ):
  *     cdef RLEs Rs = _frString(rleObjs)             # <<<<<<<<<<<<<<
@@ -6267,11 +6267,11 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
     }
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 242, __pyx_L1_error)
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_1);
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs))))) __PYX_ERR(0, 242, __pyx_L1_error)
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":243
+  /* "libs/datasets/pycocotools/_mask.pyx":243
  * def toBbox( rleObjs ):
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef siz n = Rs.n             # <<<<<<<<<<<<<<
@@ -6284,7 +6284,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n = __pyx_t_5;
 
-  /* "thirdparty/pycocotools/_mask.pyx":244
+  /* "libs/datasets/pycocotools/_mask.pyx":244
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef siz n = Rs.n
  *     cdef BB _bb = <BB> malloc(4*n* sizeof(double))             # <<<<<<<<<<<<<<
@@ -6293,7 +6293,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
  */
   __pyx_v__bb = ((BB)malloc(((4 * __pyx_v_n) * (sizeof(double)))));
 
-  /* "thirdparty/pycocotools/_mask.pyx":245
+  /* "libs/datasets/pycocotools/_mask.pyx":245
  *     cdef siz n = Rs.n
  *     cdef BB _bb = <BB> malloc(4*n* sizeof(double))
  *     rleToBbox( <const RLE*> Rs._R, _bb, n )             # <<<<<<<<<<<<<<
@@ -6302,7 +6302,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
  */
   rleToBbox(((RLE const *)__pyx_v_Rs->_R), __pyx_v__bb, __pyx_v_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":247
+  /* "libs/datasets/pycocotools/_mask.pyx":247
  *     rleToBbox( <const RLE*> Rs._R, _bb, n )
  *     cdef np.npy_intp shape[1]
  *     shape[0] = <np.npy_intp> 4*n             # <<<<<<<<<<<<<<
@@ -6311,7 +6311,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
  */
   (__pyx_v_shape[0]) = (((npy_intp)4) * __pyx_v_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":248
+  /* "libs/datasets/pycocotools/_mask.pyx":248
  *     cdef np.npy_intp shape[1]
  *     shape[0] = <np.npy_intp> 4*n
  *     bb = np.array((1,4*n), dtype=np.double)             # <<<<<<<<<<<<<<
@@ -6355,7 +6355,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   __pyx_v_bb = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":249
+  /* "libs/datasets/pycocotools/_mask.pyx":249
  *     shape[0] = <np.npy_intp> 4*n
  *     bb = np.array((1,4*n), dtype=np.double)
  *     bb = np.PyArray_SimpleNewFromData(1, shape, np.NPY_DOUBLE, _bb).reshape((n, 4))             # <<<<<<<<<<<<<<
@@ -6426,7 +6426,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   __Pyx_DECREF_SET(__pyx_v_bb, __pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":250
+  /* "libs/datasets/pycocotools/_mask.pyx":250
  *     bb = np.array((1,4*n), dtype=np.double)
  *     bb = np.PyArray_SimpleNewFromData(1, shape, np.NPY_DOUBLE, _bb).reshape((n, 4))
  *     PyArray_ENABLEFLAGS(bb, np.NPY_OWNDATA)             # <<<<<<<<<<<<<<
@@ -6436,7 +6436,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   if (!(likely(((__pyx_v_bb) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_bb, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 250, __pyx_L1_error)
   PyArray_ENABLEFLAGS(((PyArrayObject *)__pyx_v_bb), NPY_OWNDATA);
 
-  /* "thirdparty/pycocotools/_mask.pyx":251
+  /* "libs/datasets/pycocotools/_mask.pyx":251
  *     bb = np.PyArray_SimpleNewFromData(1, shape, np.NPY_DOUBLE, _bb).reshape((n, 4))
  *     PyArray_ENABLEFLAGS(bb, np.NPY_OWNDATA)
  *     return bb             # <<<<<<<<<<<<<<
@@ -6448,7 +6448,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   __pyx_r = __pyx_v_bb;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":241
+  /* "libs/datasets/pycocotools/_mask.pyx":241
  *     return iou.reshape((m,n), order='F')
  * 
  * def toBbox( rleObjs ):             # <<<<<<<<<<<<<<
@@ -6463,7 +6463,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.toBbox", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.toBbox", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_Rs);
@@ -6473,7 +6473,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":253
+/* "libs/datasets/pycocotools/_mask.pyx":253
  *     return bb
  * 
  * def frBbox(np.ndarray[np.double_t, ndim=2] bb, siz h, siz w ):             # <<<<<<<<<<<<<<
@@ -6482,9 +6482,9 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_14toBbox(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_17frBbox(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_17frBbox = {"frBbox", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_17frBbox, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_17frBbox(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_17frBbox(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_17frBbox = {"frBbox", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_17frBbox, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_17frBbox(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_bb = 0;
   siz __pyx_v_h;
   siz __pyx_v_w;
@@ -6538,12 +6538,12 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_17frBbox(PyObject *_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("frBbox", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 253, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frBbox", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frBbox", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_bb), __pyx_ptype_5numpy_ndarray, 1, "bb", 0))) __PYX_ERR(0, 253, __pyx_L1_error)
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(__pyx_self, __pyx_v_bb, __pyx_v_h, __pyx_v_w);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_16frBbox(__pyx_self, __pyx_v_bb, __pyx_v_h, __pyx_v_w);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6554,9 +6554,9 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_17frBbox(PyObject *_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_bb, siz __pyx_v_h, siz __pyx_v_w) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_16frBbox(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_bb, siz __pyx_v_h, siz __pyx_v_w) {
   siz __pyx_v_n;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
   PyObject *__pyx_v_objs = NULL;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_bb;
   __Pyx_Buffer __pyx_pybuffer_bb;
@@ -6577,7 +6577,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
   }
   __pyx_pybuffernd_bb.diminfo[0].strides = __pyx_pybuffernd_bb.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_bb.diminfo[0].shape = __pyx_pybuffernd_bb.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_bb.diminfo[1].strides = __pyx_pybuffernd_bb.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_bb.diminfo[1].shape = __pyx_pybuffernd_bb.rcbuffer->pybuffer.shape[1];
 
-  /* "thirdparty/pycocotools/_mask.pyx":254
+  /* "libs/datasets/pycocotools/_mask.pyx":254
  * 
  * def frBbox(np.ndarray[np.double_t, ndim=2] bb, siz h, siz w ):
  *     cdef siz n = bb.shape[0]             # <<<<<<<<<<<<<<
@@ -6586,7 +6586,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
  */
   __pyx_v_n = (__pyx_v_bb->dimensions[0]);
 
-  /* "thirdparty/pycocotools/_mask.pyx":255
+  /* "libs/datasets/pycocotools/_mask.pyx":255
  * def frBbox(np.ndarray[np.double_t, ndim=2] bb, siz h, siz w ):
  *     cdef siz n = bb.shape[0]
  *     Rs = RLEs(n)             # <<<<<<<<<<<<<<
@@ -6600,13 +6600,13 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_1);
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":256
+  /* "libs/datasets/pycocotools/_mask.pyx":256
  *     cdef siz n = bb.shape[0]
  *     Rs = RLEs(n)
  *     rleFrBbox( <RLE*> Rs._R, <const BB> bb.data, h, w, n )             # <<<<<<<<<<<<<<
@@ -6615,7 +6615,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
  */
   rleFrBbox(((RLE *)__pyx_v_Rs->_R), ((BB const )__pyx_v_bb->data), __pyx_v_h, __pyx_v_w, __pyx_v_n);
 
-  /* "thirdparty/pycocotools/_mask.pyx":257
+  /* "libs/datasets/pycocotools/_mask.pyx":257
  *     Rs = RLEs(n)
  *     rleFrBbox( <RLE*> Rs._R, <const BB> bb.data, h, w, n )
  *     objs = _toString(Rs)             # <<<<<<<<<<<<<<
@@ -6670,7 +6670,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
   __pyx_v_objs = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":258
+  /* "libs/datasets/pycocotools/_mask.pyx":258
  *     rleFrBbox( <RLE*> Rs._R, <const BB> bb.data, h, w, n )
  *     objs = _toString(Rs)
  *     return objs             # <<<<<<<<<<<<<<
@@ -6682,7 +6682,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
   __pyx_r = __pyx_v_objs;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":253
+  /* "libs/datasets/pycocotools/_mask.pyx":253
  *     return bb
  * 
  * def frBbox(np.ndarray[np.double_t, ndim=2] bb, siz h, siz w ):             # <<<<<<<<<<<<<<
@@ -6702,7 +6702,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_bb.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frBbox", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frBbox", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -6715,7 +6715,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":260
+/* "libs/datasets/pycocotools/_mask.pyx":260
  *     return objs
  * 
  * def frPoly( poly, siz h, siz w ):             # <<<<<<<<<<<<<<
@@ -6724,9 +6724,9 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_16frBbox(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_19frPoly(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_19frPoly = {"frPoly", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_19frPoly, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_19frPoly(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_19frPoly(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_19frPoly = {"frPoly", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_19frPoly, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_19frPoly(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_poly = 0;
   siz __pyx_v_h;
   siz __pyx_v_w;
@@ -6780,21 +6780,21 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_19frPoly(PyObject *_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("frPoly", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 260, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frPoly", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frPoly", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(__pyx_self, __pyx_v_poly, __pyx_v_h, __pyx_v_w);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_18frPoly(__pyx_self, __pyx_v_poly, __pyx_v_h, __pyx_v_w);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_poly, siz __pyx_v_h, siz __pyx_v_w) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_18frPoly(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_poly, siz __pyx_v_h, siz __pyx_v_w) {
   PyArrayObject *__pyx_v_np_poly = 0;
   Py_ssize_t __pyx_v_n;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
   PyObject *__pyx_v_i = NULL;
   PyObject *__pyx_v_p = NULL;
   PyObject *__pyx_v_objs = NULL;
@@ -6824,7 +6824,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
   __pyx_pybuffernd_np_poly.data = NULL;
   __pyx_pybuffernd_np_poly.rcbuffer = &__pyx_pybuffer_np_poly;
 
-  /* "thirdparty/pycocotools/_mask.pyx":262
+  /* "libs/datasets/pycocotools/_mask.pyx":262
  * def frPoly( poly, siz h, siz w ):
  *     cdef np.ndarray[np.double_t, ndim=1] np_poly
  *     n = len(poly)             # <<<<<<<<<<<<<<
@@ -6834,7 +6834,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
   __pyx_t_1 = PyObject_Length(__pyx_v_poly); if (unlikely(__pyx_t_1 == -1)) __PYX_ERR(0, 262, __pyx_L1_error)
   __pyx_v_n = __pyx_t_1;
 
-  /* "thirdparty/pycocotools/_mask.pyx":263
+  /* "libs/datasets/pycocotools/_mask.pyx":263
  *     cdef np.ndarray[np.double_t, ndim=1] np_poly
  *     n = len(poly)
  *     Rs = RLEs(n)             # <<<<<<<<<<<<<<
@@ -6848,13 +6848,13 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 263, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 263, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_v_Rs = ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_2);
+  __pyx_v_Rs = ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":264
+  /* "libs/datasets/pycocotools/_mask.pyx":264
  *     n = len(poly)
  *     Rs = RLEs(n)
  *     for i, p in enumerate(poly):             # <<<<<<<<<<<<<<
@@ -6912,7 +6912,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
     __pyx_t_2 = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":265
+    /* "libs/datasets/pycocotools/_mask.pyx":265
  *     Rs = RLEs(n)
  *     for i, p in enumerate(poly):
  *         np_poly = np.array(p, dtype=np.double, order='F')             # <<<<<<<<<<<<<<
@@ -6966,7 +6966,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
     __Pyx_XDECREF_SET(__pyx_v_np_poly, ((PyArrayObject *)__pyx_t_9));
     __pyx_t_9 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":266
+    /* "libs/datasets/pycocotools/_mask.pyx":266
  *     for i, p in enumerate(poly):
  *         np_poly = np.array(p, dtype=np.double, order='F')
  *         rleFrPoly( <RLE*>&Rs._R[i], <const double*> np_poly.data, int(len(p)/2), h, w )             # <<<<<<<<<<<<<<
@@ -6977,7 +6977,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
     __pyx_t_16 = PyObject_Length(__pyx_v_p); if (unlikely(__pyx_t_16 == -1)) __PYX_ERR(0, 266, __pyx_L1_error)
     rleFrPoly(((RLE *)(&(__pyx_v_Rs->_R[__pyx_t_15]))), ((double const *)__pyx_v_np_poly->data), ((siz)__Pyx_div_Py_ssize_t(__pyx_t_16, 2)), __pyx_v_h, __pyx_v_w);
 
-    /* "thirdparty/pycocotools/_mask.pyx":264
+    /* "libs/datasets/pycocotools/_mask.pyx":264
  *     n = len(poly)
  *     Rs = RLEs(n)
  *     for i, p in enumerate(poly):             # <<<<<<<<<<<<<<
@@ -6988,7 +6988,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":267
+  /* "libs/datasets/pycocotools/_mask.pyx":267
  *         np_poly = np.array(p, dtype=np.double, order='F')
  *         rleFrPoly( <RLE*>&Rs._R[i], <const double*> np_poly.data, int(len(p)/2), h, w )
  *     objs = _toString(Rs)             # <<<<<<<<<<<<<<
@@ -7043,7 +7043,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
   __pyx_v_objs = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":268
+  /* "libs/datasets/pycocotools/_mask.pyx":268
  *         rleFrPoly( <RLE*>&Rs._R[i], <const double*> np_poly.data, int(len(p)/2), h, w )
  *     objs = _toString(Rs)
  *     return objs             # <<<<<<<<<<<<<<
@@ -7055,7 +7055,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
   __pyx_r = __pyx_v_objs;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":260
+  /* "libs/datasets/pycocotools/_mask.pyx":260
  *     return objs
  * 
  * def frPoly( poly, siz h, siz w ):             # <<<<<<<<<<<<<<
@@ -7078,7 +7078,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_np_poly.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frPoly", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frPoly", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -7094,7 +7094,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":270
+/* "libs/datasets/pycocotools/_mask.pyx":270
  *     return objs
  * 
  * def frUncompressedRLE(ucRles, siz h, siz w):             # <<<<<<<<<<<<<<
@@ -7103,9 +7103,9 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_18frPoly(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_21frUncompressedRLE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_21frUncompressedRLE = {"frUncompressedRLE", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_21frUncompressedRLE, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_21frUncompressedRLE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_21frUncompressedRLE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_21frUncompressedRLE = {"frUncompressedRLE", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_21frUncompressedRLE, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_21frUncompressedRLE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_ucRles = 0;
   CYTHON_UNUSED siz __pyx_v_h;
   CYTHON_UNUSED siz __pyx_v_w;
@@ -7159,25 +7159,25 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_21frUncompressedRLE(
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("frUncompressedRLE", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 270, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frUncompressedRLE", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frUncompressedRLE", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(__pyx_self, __pyx_v_ucRles, __pyx_v_h, __pyx_v_w);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_20frUncompressedRLE(__pyx_self, __pyx_v_ucRles, __pyx_v_h, __pyx_v_w);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_ucRles, CYTHON_UNUSED siz __pyx_v_h, CYTHON_UNUSED siz __pyx_v_w) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_20frUncompressedRLE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_ucRles, CYTHON_UNUSED siz __pyx_v_h, CYTHON_UNUSED siz __pyx_v_w) {
   PyArrayObject *__pyx_v_cnts = 0;
   RLE __pyx_v_R;
   uint *__pyx_v_data;
   Py_ssize_t __pyx_v_n;
   PyObject *__pyx_v_objs = NULL;
   Py_ssize_t __pyx_v_i;
-  struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
+  struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *__pyx_v_Rs = NULL;
   Py_ssize_t __pyx_v_j;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_cnts;
   __Pyx_Buffer __pyx_pybuffer_cnts;
@@ -7207,7 +7207,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
   __pyx_pybuffernd_cnts.data = NULL;
   __pyx_pybuffernd_cnts.rcbuffer = &__pyx_pybuffer_cnts;
 
-  /* "thirdparty/pycocotools/_mask.pyx":274
+  /* "libs/datasets/pycocotools/_mask.pyx":274
  *     cdef RLE R
  *     cdef uint *data
  *     n = len(ucRles)             # <<<<<<<<<<<<<<
@@ -7217,7 +7217,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
   __pyx_t_1 = PyObject_Length(__pyx_v_ucRles); if (unlikely(__pyx_t_1 == -1)) __PYX_ERR(0, 274, __pyx_L1_error)
   __pyx_v_n = __pyx_t_1;
 
-  /* "thirdparty/pycocotools/_mask.pyx":275
+  /* "libs/datasets/pycocotools/_mask.pyx":275
  *     cdef uint *data
  *     n = len(ucRles)
  *     objs = []             # <<<<<<<<<<<<<<
@@ -7229,7 +7229,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
   __pyx_v_objs = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":276
+  /* "libs/datasets/pycocotools/_mask.pyx":276
  *     n = len(ucRles)
  *     objs = []
  *     for i in range(n):             # <<<<<<<<<<<<<<
@@ -7240,19 +7240,19 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_1; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "thirdparty/pycocotools/_mask.pyx":277
+    /* "libs/datasets/pycocotools/_mask.pyx":277
  *     objs = []
  *     for i in range(n):
  *         Rs = RLEs(1)             # <<<<<<<<<<<<<<
  *         cnts = np.array(ucRles[i]['counts'], dtype=np.uint32)
  *         # time for malloc can be saved here but it's fine
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs), __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 277, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs), __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 277, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_XDECREF_SET(__pyx_v_Rs, ((struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs *)__pyx_t_2));
+    __Pyx_XDECREF_SET(__pyx_v_Rs, ((struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs *)__pyx_t_2));
     __pyx_t_2 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":278
+    /* "libs/datasets/pycocotools/_mask.pyx":278
  *     for i in range(n):
  *         Rs = RLEs(1)
  *         cnts = np.array(ucRles[i]['counts'], dtype=np.uint32)             # <<<<<<<<<<<<<<
@@ -7310,7 +7310,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
     __Pyx_XDECREF_SET(__pyx_v_cnts, ((PyArrayObject *)__pyx_t_7));
     __pyx_t_7 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":280
+    /* "libs/datasets/pycocotools/_mask.pyx":280
  *         cnts = np.array(ucRles[i]['counts'], dtype=np.uint32)
  *         # time for malloc can be saved here but it's fine
  *         data = <uint*> malloc(len(cnts)* sizeof(uint))             # <<<<<<<<<<<<<<
@@ -7320,7 +7320,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
     __pyx_t_13 = PyObject_Length(((PyObject *)__pyx_v_cnts)); if (unlikely(__pyx_t_13 == -1)) __PYX_ERR(0, 280, __pyx_L1_error)
     __pyx_v_data = ((uint *)malloc((__pyx_t_13 * (sizeof(unsigned int)))));
 
-    /* "thirdparty/pycocotools/_mask.pyx":281
+    /* "libs/datasets/pycocotools/_mask.pyx":281
  *         # time for malloc can be saved here but it's fine
  *         data = <uint*> malloc(len(cnts)* sizeof(uint))
  *         for j in range(len(cnts)):             # <<<<<<<<<<<<<<
@@ -7331,7 +7331,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
     for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_13; __pyx_t_14+=1) {
       __pyx_v_j = __pyx_t_14;
 
-      /* "thirdparty/pycocotools/_mask.pyx":282
+      /* "libs/datasets/pycocotools/_mask.pyx":282
  *         data = <uint*> malloc(len(cnts)* sizeof(uint))
  *         for j in range(len(cnts)):
  *             data[j] = <uint> cnts[j]             # <<<<<<<<<<<<<<
@@ -7351,7 +7351,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
       (__pyx_v_data[__pyx_v_j]) = ((uint)(*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint32_t *, __pyx_pybuffernd_cnts.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_cnts.diminfo[0].strides)));
     }
 
-    /* "thirdparty/pycocotools/_mask.pyx":283
+    /* "libs/datasets/pycocotools/_mask.pyx":283
  *         for j in range(len(cnts)):
  *             data[j] = <uint> cnts[j]
  *         R = RLE(ucRles[i]['size'][0], ucRles[i]['size'][1], len(cnts), <uint*> data)             # <<<<<<<<<<<<<<
@@ -7385,7 +7385,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
     __pyx_t_16.cnts = ((uint *)__pyx_v_data);
     __pyx_v_R = __pyx_t_16;
 
-    /* "thirdparty/pycocotools/_mask.pyx":284
+    /* "libs/datasets/pycocotools/_mask.pyx":284
  *             data[j] = <uint> cnts[j]
  *         R = RLE(ucRles[i]['size'][0], ucRles[i]['size'][1], len(cnts), <uint*> data)
  *         Rs._R[0] = R             # <<<<<<<<<<<<<<
@@ -7394,7 +7394,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
  */
     (__pyx_v_Rs->_R[0]) = __pyx_v_R;
 
-    /* "thirdparty/pycocotools/_mask.pyx":285
+    /* "libs/datasets/pycocotools/_mask.pyx":285
  *         R = RLE(ucRles[i]['size'][0], ucRles[i]['size'][1], len(cnts), <uint*> data)
  *         Rs._R[0] = R
  *         objs.append(_toString(Rs)[0])             # <<<<<<<<<<<<<<
@@ -7453,7 +7453,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":286
+  /* "libs/datasets/pycocotools/_mask.pyx":286
  *         Rs._R[0] = R
  *         objs.append(_toString(Rs)[0])
  *     return objs             # <<<<<<<<<<<<<<
@@ -7465,7 +7465,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
   __pyx_r = __pyx_v_objs;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":270
+  /* "libs/datasets/pycocotools/_mask.pyx":270
  *     return objs
  * 
  * def frUncompressedRLE(ucRles, siz h, siz w):             # <<<<<<<<<<<<<<
@@ -7486,7 +7486,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_cnts.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frUncompressedRLE", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frUncompressedRLE", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -7500,7 +7500,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
   return __pyx_r;
 }
 
-/* "thirdparty/pycocotools/_mask.pyx":288
+/* "libs/datasets/pycocotools/_mask.pyx":288
  *     return objs
  * 
  * def frPyObjects(pyobj, h, w):             # <<<<<<<<<<<<<<
@@ -7509,9 +7509,9 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_20frUncompressedRLE(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_23frPyObjects(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_10thirdparty_11pycocotools_5_mask_23frPyObjects = {"frPyObjects", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_23frPyObjects, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_23frPyObjects(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_23frPyObjects(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4libs_8datasets_11pycocotools_5_mask_23frPyObjects = {"frPyObjects", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_23frPyObjects, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4libs_8datasets_11pycocotools_5_mask_23frPyObjects(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_pyobj = 0;
   PyObject *__pyx_v_h = 0;
   PyObject *__pyx_v_w = 0;
@@ -7565,18 +7565,18 @@ static PyObject *__pyx_pw_10thirdparty_11pycocotools_5_mask_23frPyObjects(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("frPyObjects", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 288, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frPyObjects", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frPyObjects", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(__pyx_self, __pyx_v_pyobj, __pyx_v_h, __pyx_v_w);
+  __pyx_r = __pyx_pf_4libs_8datasets_11pycocotools_5_mask_22frPyObjects(__pyx_self, __pyx_v_pyobj, __pyx_v_h, __pyx_v_w);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pyobj, PyObject *__pyx_v_h, PyObject *__pyx_v_w) {
+static PyObject *__pyx_pf_4libs_8datasets_11pycocotools_5_mask_22frPyObjects(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pyobj, PyObject *__pyx_v_h, PyObject *__pyx_v_w) {
   PyObject *__pyx_v_objs = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7592,7 +7592,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   PyObject *__pyx_t_10 = NULL;
   __Pyx_RefNannySetupContext("frPyObjects", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":290
+  /* "libs/datasets/pycocotools/_mask.pyx":290
  * def frPyObjects(pyobj, h, w):
  *     # encode rle from a list of python objects
  *     if type(pyobj) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -7604,7 +7604,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":291
+    /* "libs/datasets/pycocotools/_mask.pyx":291
  *     # encode rle from a list of python objects
  *     if type(pyobj) == np.ndarray:
  *         objs = frBbox(pyobj, h, w)             # <<<<<<<<<<<<<<
@@ -7664,7 +7664,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     __pyx_v_objs = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":290
+    /* "libs/datasets/pycocotools/_mask.pyx":290
  * def frPyObjects(pyobj, h, w):
  *     # encode rle from a list of python objects
  *     if type(pyobj) == np.ndarray:             # <<<<<<<<<<<<<<
@@ -7674,7 +7674,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":292
+  /* "libs/datasets/pycocotools/_mask.pyx":292
  *     if type(pyobj) == np.ndarray:
  *         objs = frBbox(pyobj, h, w)
  *     elif type(pyobj) == list and len(pyobj[0]) == 4:             # <<<<<<<<<<<<<<
@@ -7698,7 +7698,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":293
+    /* "libs/datasets/pycocotools/_mask.pyx":293
  *         objs = frBbox(pyobj, h, w)
  *     elif type(pyobj) == list and len(pyobj[0]) == 4:
  *         objs = frBbox(pyobj, h, w)             # <<<<<<<<<<<<<<
@@ -7758,7 +7758,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     __pyx_v_objs = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":292
+    /* "libs/datasets/pycocotools/_mask.pyx":292
  *     if type(pyobj) == np.ndarray:
  *         objs = frBbox(pyobj, h, w)
  *     elif type(pyobj) == list and len(pyobj[0]) == 4:             # <<<<<<<<<<<<<<
@@ -7768,7 +7768,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":294
+  /* "libs/datasets/pycocotools/_mask.pyx":294
  *     elif type(pyobj) == list and len(pyobj[0]) == 4:
  *         objs = frBbox(pyobj, h, w)
  *     elif type(pyobj) == list and len(pyobj[0]) > 4:             # <<<<<<<<<<<<<<
@@ -7792,7 +7792,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_L6_bool_binop_done:;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":295
+    /* "libs/datasets/pycocotools/_mask.pyx":295
  *         objs = frBbox(pyobj, h, w)
  *     elif type(pyobj) == list and len(pyobj[0]) > 4:
  *         objs = frPoly(pyobj, h, w)             # <<<<<<<<<<<<<<
@@ -7852,7 +7852,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     __pyx_v_objs = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":294
+    /* "libs/datasets/pycocotools/_mask.pyx":294
  *     elif type(pyobj) == list and len(pyobj[0]) == 4:
  *         objs = frBbox(pyobj, h, w)
  *     elif type(pyobj) == list and len(pyobj[0]) > 4:             # <<<<<<<<<<<<<<
@@ -7862,7 +7862,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":296
+  /* "libs/datasets/pycocotools/_mask.pyx":296
  *     elif type(pyobj) == list and len(pyobj[0]) > 4:
  *         objs = frPoly(pyobj, h, w)
  *     elif type(pyobj) == list and type(pyobj[0]) == dict \             # <<<<<<<<<<<<<<
@@ -7878,7 +7878,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L8_bool_binop_done;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":297
+  /* "libs/datasets/pycocotools/_mask.pyx":297
  *         objs = frPoly(pyobj, h, w)
  *     elif type(pyobj) == list and type(pyobj[0]) == dict \
  *         and 'counts' in pyobj[0] and 'size' in pyobj[0]:             # <<<<<<<<<<<<<<
@@ -7888,7 +7888,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_pyobj, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 296, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "thirdparty/pycocotools/_mask.pyx":296
+  /* "libs/datasets/pycocotools/_mask.pyx":296
  *     elif type(pyobj) == list and len(pyobj[0]) > 4:
  *         objs = frPoly(pyobj, h, w)
  *     elif type(pyobj) == list and type(pyobj[0]) == dict \             # <<<<<<<<<<<<<<
@@ -7905,7 +7905,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L8_bool_binop_done;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":297
+  /* "libs/datasets/pycocotools/_mask.pyx":297
  *         objs = frPoly(pyobj, h, w)
  *     elif type(pyobj) == list and type(pyobj[0]) == dict \
  *         and 'counts' in pyobj[0] and 'size' in pyobj[0]:             # <<<<<<<<<<<<<<
@@ -7930,7 +7930,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_t_2 = __pyx_t_7;
   __pyx_L8_bool_binop_done:;
 
-  /* "thirdparty/pycocotools/_mask.pyx":296
+  /* "libs/datasets/pycocotools/_mask.pyx":296
  *     elif type(pyobj) == list and len(pyobj[0]) > 4:
  *         objs = frPoly(pyobj, h, w)
  *     elif type(pyobj) == list and type(pyobj[0]) == dict \             # <<<<<<<<<<<<<<
@@ -7939,7 +7939,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
  */
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":298
+    /* "libs/datasets/pycocotools/_mask.pyx":298
  *     elif type(pyobj) == list and type(pyobj[0]) == dict \
  *         and 'counts' in pyobj[0] and 'size' in pyobj[0]:
  *         objs = frUncompressedRLE(pyobj, h, w)             # <<<<<<<<<<<<<<
@@ -7999,7 +7999,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     __pyx_v_objs = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":296
+    /* "libs/datasets/pycocotools/_mask.pyx":296
  *     elif type(pyobj) == list and len(pyobj[0]) > 4:
  *         objs = frPoly(pyobj, h, w)
  *     elif type(pyobj) == list and type(pyobj[0]) == dict \             # <<<<<<<<<<<<<<
@@ -8009,7 +8009,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":300
+  /* "libs/datasets/pycocotools/_mask.pyx":300
  *         objs = frUncompressedRLE(pyobj, h, w)
  *     # encode rle from single python object
  *     elif type(pyobj) == list and len(pyobj) == 4:             # <<<<<<<<<<<<<<
@@ -8030,7 +8030,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_L12_bool_binop_done:;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":301
+    /* "libs/datasets/pycocotools/_mask.pyx":301
  *     # encode rle from single python object
  *     elif type(pyobj) == list and len(pyobj) == 4:
  *         objs = frBbox([pyobj], h, w)[0]             # <<<<<<<<<<<<<<
@@ -8100,7 +8100,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     __pyx_v_objs = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":300
+    /* "libs/datasets/pycocotools/_mask.pyx":300
  *         objs = frUncompressedRLE(pyobj, h, w)
  *     # encode rle from single python object
  *     elif type(pyobj) == list and len(pyobj) == 4:             # <<<<<<<<<<<<<<
@@ -8110,7 +8110,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":302
+  /* "libs/datasets/pycocotools/_mask.pyx":302
  *     elif type(pyobj) == list and len(pyobj) == 4:
  *         objs = frBbox([pyobj], h, w)[0]
  *     elif type(pyobj) == list and len(pyobj) > 4:             # <<<<<<<<<<<<<<
@@ -8131,7 +8131,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_L14_bool_binop_done:;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":303
+    /* "libs/datasets/pycocotools/_mask.pyx":303
  *         objs = frBbox([pyobj], h, w)[0]
  *     elif type(pyobj) == list and len(pyobj) > 4:
  *         objs = frPoly([pyobj], h, w)[0]             # <<<<<<<<<<<<<<
@@ -8201,7 +8201,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     __pyx_v_objs = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":302
+    /* "libs/datasets/pycocotools/_mask.pyx":302
  *     elif type(pyobj) == list and len(pyobj) == 4:
  *         objs = frBbox([pyobj], h, w)[0]
  *     elif type(pyobj) == list and len(pyobj) > 4:             # <<<<<<<<<<<<<<
@@ -8211,7 +8211,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":304
+  /* "libs/datasets/pycocotools/_mask.pyx":304
  *     elif type(pyobj) == list and len(pyobj) > 4:
  *         objs = frPoly([pyobj], h, w)[0]
  *     elif type(pyobj) == dict and 'counts' in pyobj and 'size' in pyobj:             # <<<<<<<<<<<<<<
@@ -8239,7 +8239,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_L16_bool_binop_done:;
   if (__pyx_t_2) {
 
-    /* "thirdparty/pycocotools/_mask.pyx":305
+    /* "libs/datasets/pycocotools/_mask.pyx":305
  *         objs = frPoly([pyobj], h, w)[0]
  *     elif type(pyobj) == dict and 'counts' in pyobj and 'size' in pyobj:
  *         objs = frUncompressedRLE([pyobj], h, w)[0]             # <<<<<<<<<<<<<<
@@ -8309,7 +8309,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     __pyx_v_objs = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "thirdparty/pycocotools/_mask.pyx":304
+    /* "libs/datasets/pycocotools/_mask.pyx":304
  *     elif type(pyobj) == list and len(pyobj) > 4:
  *         objs = frPoly([pyobj], h, w)[0]
  *     elif type(pyobj) == dict and 'counts' in pyobj and 'size' in pyobj:             # <<<<<<<<<<<<<<
@@ -8319,7 +8319,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
     goto __pyx_L3;
   }
 
-  /* "thirdparty/pycocotools/_mask.pyx":307
+  /* "libs/datasets/pycocotools/_mask.pyx":307
  *         objs = frUncompressedRLE([pyobj], h, w)[0]
  *     else:
  *         raise Exception('input type is not supported.')             # <<<<<<<<<<<<<<
@@ -8334,7 +8334,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   }
   __pyx_L3:;
 
-  /* "thirdparty/pycocotools/_mask.pyx":308
+  /* "libs/datasets/pycocotools/_mask.pyx":308
  *     else:
  *         raise Exception('input type is not supported.')
  *     return objs             # <<<<<<<<<<<<<<
@@ -8344,7 +8344,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __pyx_r = __pyx_v_objs;
   goto __pyx_L0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":288
+  /* "libs/datasets/pycocotools/_mask.pyx":288
  *     return objs
  * 
  * def frPyObjects(pyobj, h, w):             # <<<<<<<<<<<<<<
@@ -8359,7 +8359,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("thirdparty.pycocotools._mask.frPyObjects", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("libs.datasets.pycocotools._mask.frPyObjects", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_objs);
@@ -8368,7 +8368,7 @@ static PyObject *__pyx_pf_10thirdparty_11pycocotools_5_mask_22frPyObjects(CYTHON
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":197
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":197
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -8415,7 +8415,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":203
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":203
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -8428,7 +8428,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":206
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":206
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -8437,7 +8437,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":207
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":207
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -8446,7 +8446,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":209
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":209
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -8455,7 +8455,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":211
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":211
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -8465,7 +8465,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":212
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":212
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -8474,7 +8474,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_copy_shape = 1;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":211
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":211
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -8484,7 +8484,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":214
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":214
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -8496,7 +8496,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":216
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":216
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -8510,7 +8510,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L6_bool_binop_done;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":217
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":217
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -8521,7 +8521,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L6_bool_binop_done:;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":216
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":216
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -8530,7 +8530,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":218
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":218
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -8543,7 +8543,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 218, __pyx_L1_error)
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":216
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":216
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -8552,7 +8552,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":220
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":220
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -8566,7 +8566,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9_bool_binop_done;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":221
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":221
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -8577,7 +8577,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L9_bool_binop_done:;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":220
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":220
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -8586,7 +8586,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":222
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":222
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -8599,7 +8599,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 222, __pyx_L1_error)
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":220
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":220
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -8608,7 +8608,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":224
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":224
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -8617,7 +8617,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":225
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":225
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -8626,7 +8626,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":226
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":226
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -8636,7 +8636,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":229
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":229
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)             # <<<<<<<<<<<<<<
@@ -8645,7 +8645,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)malloc((((sizeof(Py_ssize_t)) * ((size_t)__pyx_v_ndim)) * 2)));
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":230
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":230
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -8654,7 +8654,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":231
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -8665,7 +8665,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":232
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":232
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -8674,7 +8674,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":233
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -8684,7 +8684,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":226
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":226
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -8694,7 +8694,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L11;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":235
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":235
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -8704,7 +8704,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":236
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":236
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -8715,7 +8715,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -8724,7 +8724,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":238
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":238
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -8733,7 +8733,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":239
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":239
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -8742,7 +8742,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":242
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":242
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -8751,7 +8751,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":243
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":243
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -8763,7 +8763,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":246
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":246
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -8772,7 +8772,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":248
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":248
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -8790,7 +8790,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":250
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":250
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -8803,7 +8803,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_v_info->obj);
     __pyx_v_info->obj = Py_None;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":248
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":248
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -8813,7 +8813,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L14;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":253
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":253
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -8829,7 +8829,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":255
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":255
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -8839,7 +8839,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":256
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":256
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -8849,7 +8849,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":257
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":257
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -8869,7 +8869,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":258
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -8886,7 +8886,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L19_bool_binop_done:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":257
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":257
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -8895,7 +8895,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (__pyx_t_1) {
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":259
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":259
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -8908,7 +8908,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 259, __pyx_L1_error)
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":257
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":257
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -8917,7 +8917,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":260
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":260
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -8929,7 +8929,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"b");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":261
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":261
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -8940,7 +8940,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"B");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":262
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":262
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -8951,7 +8951,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"h");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":263
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":263
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -8962,7 +8962,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"H");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":264
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":264
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -8973,7 +8973,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"i");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":265
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -8984,7 +8984,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"I");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":266
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":266
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -8995,7 +8995,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"l");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":267
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":267
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -9006,7 +9006,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"L");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":268
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":268
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -9017,7 +9017,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"q");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":269
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":269
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -9028,7 +9028,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Q");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":270
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -9039,7 +9039,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"f");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":271
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":271
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -9050,7 +9050,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"d");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -9061,7 +9061,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"g");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":273
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":273
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -9072,7 +9072,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zf");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -9083,7 +9083,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zd");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":275
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -9094,7 +9094,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zg");
       break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -9106,7 +9106,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":278
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -9132,7 +9132,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":279
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -9141,7 +9141,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":280
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -9151,7 +9151,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":255
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":255
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -9160,7 +9160,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":282
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":282
  *                 return
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -9170,7 +9170,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)malloc(0xFF));
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":283
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -9179,7 +9179,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -9188,7 +9188,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -9198,7 +9198,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == NULL)) __PYX_ERR(1, 285, __pyx_L1_error)
     __pyx_v_f = __pyx_t_7;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":288
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":288
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -9208,7 +9208,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":197
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":197
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -9240,7 +9240,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":290
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -9264,7 +9264,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":291
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -9274,7 +9274,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":292
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)             # <<<<<<<<<<<<<<
@@ -9283,7 +9283,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     free(__pyx_v_info->format);
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":291
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -9292,7 +9292,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":293
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -9302,7 +9302,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":294
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":294
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 stdlib.free(info.strides)             # <<<<<<<<<<<<<<
@@ -9311,7 +9311,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     free(__pyx_v_info->strides);
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":293
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -9320,7 +9320,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":290
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -9332,7 +9332,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":770
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":770
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -9346,7 +9346,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":771
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":771
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -9360,7 +9360,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":770
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":770
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -9379,7 +9379,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":773
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":773
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -9393,7 +9393,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":774
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -9407,7 +9407,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":773
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":773
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -9426,7 +9426,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":776
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -9440,7 +9440,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -9454,7 +9454,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":776
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -9473,7 +9473,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":779
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -9487,7 +9487,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":780
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -9501,7 +9501,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":779
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -9520,7 +9520,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":782
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":782
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -9534,7 +9534,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -9548,7 +9548,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":782
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":782
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -9567,7 +9567,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":785
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -9596,7 +9596,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":790
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -9605,7 +9605,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":791
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -9614,7 +9614,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":794
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":794
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -9637,7 +9637,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":795
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":795
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -9654,7 +9654,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":796
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":796
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -9693,7 +9693,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":798
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":798
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -9710,7 +9710,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":799
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":799
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -9723,7 +9723,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 799, __pyx_L1_error)
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":798
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":798
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -9732,7 +9732,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":801
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -9752,7 +9752,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":802
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -9769,7 +9769,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":801
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -9778,7 +9778,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (__pyx_t_6) {
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":803
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":803
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -9791,7 +9791,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 803, __pyx_L1_error)
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":801
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -9800,7 +9800,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":813
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -9816,7 +9816,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":814
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":814
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -9825,7 +9825,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":815
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -9834,7 +9834,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":816
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":816
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -9845,7 +9845,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":818
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":818
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -9855,7 +9855,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":820
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":820
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -9865,7 +9865,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":821
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -9877,7 +9877,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":822
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -9887,7 +9887,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":823
+        /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":823
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -9900,7 +9900,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(1, 823, __pyx_L1_error)
 
-        /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
+        /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":822
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -9909,7 +9909,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":826
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":826
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -9927,7 +9927,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":827
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -9945,7 +9945,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":828
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":828
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -9963,7 +9963,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":829
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":829
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -9981,7 +9981,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":830
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -9999,7 +9999,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":831
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -10017,7 +10017,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":832
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":832
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -10035,7 +10035,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":833
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -10053,7 +10053,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":834
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":834
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -10071,7 +10071,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":835
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":835
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -10089,7 +10089,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":836
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -10107,7 +10107,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":837
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -10125,7 +10125,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":838
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -10143,7 +10143,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":839
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":839
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -10163,7 +10163,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":840
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -10183,7 +10183,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":841
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":841
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -10203,7 +10203,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":842
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -10221,7 +10221,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":844
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":844
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -10245,7 +10245,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":845
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":845
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -10254,7 +10254,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":820
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":820
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -10264,7 +10264,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":849
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":849
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -10277,7 +10277,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":794
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":794
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -10287,7 +10287,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":850
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":850
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -10297,7 +10297,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":785
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -10322,7 +10322,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":966
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -10337,7 +10337,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":968
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":968
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -10348,7 +10348,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":969
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":969
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -10357,7 +10357,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     __pyx_v_baseptr = NULL;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":968
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":968
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -10367,7 +10367,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
     goto __pyx_L3;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":971
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":971
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -10377,7 +10377,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   /*else*/ {
     Py_INCREF(__pyx_v_base);
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":972
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":972
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -10388,7 +10388,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":973
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":973
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -10397,7 +10397,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":974
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":974
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -10406,7 +10406,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":966
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -10418,7 +10418,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":976
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -10432,7 +10432,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":977
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":977
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -10442,7 +10442,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":978
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":978
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -10454,7 +10454,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None;
     goto __pyx_L0;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":977
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":977
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -10463,7 +10463,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":980
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":980
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -10477,7 +10477,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":976
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -10492,7 +10492,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":985
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":985
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -10513,7 +10513,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":986
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":986
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10529,7 +10529,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":987
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":987
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -10538,7 +10538,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == -1)) __PYX_ERR(1, 987, __pyx_L3_error)
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":986
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":986
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10553,7 +10553,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L3_error:;
     __Pyx_PyThreadState_assign
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":988
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":988
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -10568,7 +10568,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":989
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":989
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -10584,7 +10584,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":986
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":986
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10600,7 +10600,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L10_try_end:;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":985
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":985
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -10623,7 +10623,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":991
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":991
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -10644,7 +10644,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":992
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":992
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10660,7 +10660,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":993
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":993
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -10669,7 +10669,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == -1)) __PYX_ERR(1, 993, __pyx_L3_error)
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":992
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":992
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10684,7 +10684,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L3_error:;
     __Pyx_PyThreadState_assign
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":994
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":994
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -10699,7 +10699,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":995
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":995
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -10715,7 +10715,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":992
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":992
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10731,7 +10731,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L10_try_end:;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":991
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":991
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -10754,7 +10754,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":997
+/* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":997
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -10775,7 +10775,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":998
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":998
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10791,7 +10791,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":999
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":999
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -10800,7 +10800,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == -1)) __PYX_ERR(1, 999, __pyx_L3_error)
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":998
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":998
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10815,7 +10815,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L3_error:;
     __Pyx_PyThreadState_assign
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1000
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1000
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -10829,7 +10829,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+      /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1001
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -10843,7 +10843,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":998
+    /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":998
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10859,7 +10859,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L10_try_end:;
   }
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":997
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":997
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -10882,7 +10882,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-static PyObject *__pyx_tp_new_10thirdparty_11pycocotools_5_mask_RLEs(PyTypeObject *t, PyObject *a, PyObject *k) {
+static PyObject *__pyx_tp_new_4libs_8datasets_11pycocotools_5_mask_RLEs(PyTypeObject *t, PyObject *a, PyObject *k) {
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -10890,14 +10890,14 @@ static PyObject *__pyx_tp_new_10thirdparty_11pycocotools_5_mask_RLEs(PyTypeObjec
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
-  if (unlikely(__pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_1__cinit__(o, a, k) < 0)) goto bad;
+  if (unlikely(__pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_1__cinit__(o, a, k) < 0)) goto bad;
   return o;
   bad:
   Py_DECREF(o); o = 0;
   return NULL;
 }
 
-static void __pyx_tp_dealloc_10thirdparty_11pycocotools_5_mask_RLEs(PyObject *o) {
+static void __pyx_tp_dealloc_4libs_8datasets_11pycocotools_5_mask_RLEs(PyObject *o) {
   #if PY_VERSION_HEX >= 0x030400a1
   if (unlikely(Py_TYPE(o)->tp_finalize) && (!PyType_IS_GC(Py_TYPE(o)) || !_PyGC_FINALIZED(o))) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -10907,33 +10907,33 @@ static void __pyx_tp_dealloc_10thirdparty_11pycocotools_5_mask_RLEs(PyObject *o)
     PyObject *etype, *eval, *etb;
     PyErr_Fetch(&etype, &eval, &etb);
     ++Py_REFCNT(o);
-    __pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_3__dealloc__(o);
+    __pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_3__dealloc__(o);
     --Py_REFCNT(o);
     PyErr_Restore(etype, eval, etb);
   }
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static PyObject *__pyx_tp_getattro_10thirdparty_11pycocotools_5_mask_RLEs(PyObject *o, PyObject *n) {
+static PyObject *__pyx_tp_getattro_4libs_8datasets_11pycocotools_5_mask_RLEs(PyObject *o, PyObject *n) {
   PyObject *v = PyObject_GenericGetAttr(o, n);
   if (!v && PyErr_ExceptionMatches(PyExc_AttributeError)) {
     PyErr_Clear();
-    v = __pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_5__getattr__(o, n);
+    v = __pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_5__getattr__(o, n);
   }
   return v;
 }
 
-static PyMethodDef __pyx_methods_10thirdparty_11pycocotools_5_mask_RLEs[] = {
-  {"__getattr__", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_4RLEs_5__getattr__, METH_O|METH_COEXIST, 0},
+static PyMethodDef __pyx_methods_4libs_8datasets_11pycocotools_5_mask_RLEs[] = {
+  {"__getattr__", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_4RLEs_5__getattr__, METH_O|METH_COEXIST, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_RLEs = {
+static PyTypeObject __pyx_type_4libs_8datasets_11pycocotools_5_mask_RLEs = {
   PyVarObject_HEAD_INIT(0, 0)
-  "thirdparty.pycocotools._mask.RLEs", /*tp_name*/
-  sizeof(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_RLEs), /*tp_basicsize*/
+  "libs.datasets.pycocotools._mask.RLEs", /*tp_name*/
+  sizeof(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_RLEs), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_10thirdparty_11pycocotools_5_mask_RLEs, /*tp_dealloc*/
+  __pyx_tp_dealloc_4libs_8datasets_11pycocotools_5_mask_RLEs, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -10950,7 +10950,7 @@ static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_RLEs = {
   0, /*tp_hash*/
   0, /*tp_call*/
   0, /*tp_str*/
-  __pyx_tp_getattro_10thirdparty_11pycocotools_5_mask_RLEs, /*tp_getattro*/
+  __pyx_tp_getattro_4libs_8datasets_11pycocotools_5_mask_RLEs, /*tp_getattro*/
   0, /*tp_setattro*/
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE, /*tp_flags*/
@@ -10961,7 +10961,7 @@ static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_RLEs = {
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_10thirdparty_11pycocotools_5_mask_RLEs, /*tp_methods*/
+  __pyx_methods_4libs_8datasets_11pycocotools_5_mask_RLEs, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -10971,7 +10971,7 @@ static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_RLEs = {
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_10thirdparty_11pycocotools_5_mask_RLEs, /*tp_new*/
+  __pyx_tp_new_4libs_8datasets_11pycocotools_5_mask_RLEs, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -10986,7 +10986,7 @@ static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_RLEs = {
   #endif
 };
 
-static PyObject *__pyx_tp_new_10thirdparty_11pycocotools_5_mask_Masks(PyTypeObject *t, PyObject *a, PyObject *k) {
+static PyObject *__pyx_tp_new_4libs_8datasets_11pycocotools_5_mask_Masks(PyTypeObject *t, PyObject *a, PyObject *k) {
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -10994,14 +10994,14 @@ static PyObject *__pyx_tp_new_10thirdparty_11pycocotools_5_mask_Masks(PyTypeObje
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
-  if (unlikely(__pyx_pw_10thirdparty_11pycocotools_5_mask_5Masks_1__cinit__(o, a, k) < 0)) goto bad;
+  if (unlikely(__pyx_pw_4libs_8datasets_11pycocotools_5_mask_5Masks_1__cinit__(o, a, k) < 0)) goto bad;
   return o;
   bad:
   Py_DECREF(o); o = 0;
   return NULL;
 }
 
-static void __pyx_tp_dealloc_10thirdparty_11pycocotools_5_mask_Masks(PyObject *o) {
+static void __pyx_tp_dealloc_4libs_8datasets_11pycocotools_5_mask_Masks(PyObject *o) {
   #if PY_VERSION_HEX >= 0x030400a1
   if (unlikely(Py_TYPE(o)->tp_finalize) && (!PyType_IS_GC(Py_TYPE(o)) || !_PyGC_FINALIZED(o))) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -11010,17 +11010,17 @@ static void __pyx_tp_dealloc_10thirdparty_11pycocotools_5_mask_Masks(PyObject *o
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static PyMethodDef __pyx_methods_10thirdparty_11pycocotools_5_mask_Masks[] = {
-  {"__array__", (PyCFunction)__pyx_pw_10thirdparty_11pycocotools_5_mask_5Masks_3__array__, METH_NOARGS, 0},
+static PyMethodDef __pyx_methods_4libs_8datasets_11pycocotools_5_mask_Masks[] = {
+  {"__array__", (PyCFunction)__pyx_pw_4libs_8datasets_11pycocotools_5_mask_5Masks_3__array__, METH_NOARGS, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_Masks = {
+static PyTypeObject __pyx_type_4libs_8datasets_11pycocotools_5_mask_Masks = {
   PyVarObject_HEAD_INIT(0, 0)
-  "thirdparty.pycocotools._mask.Masks", /*tp_name*/
-  sizeof(struct __pyx_obj_10thirdparty_11pycocotools_5_mask_Masks), /*tp_basicsize*/
+  "libs.datasets.pycocotools._mask.Masks", /*tp_name*/
+  sizeof(struct __pyx_obj_4libs_8datasets_11pycocotools_5_mask_Masks), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_10thirdparty_11pycocotools_5_mask_Masks, /*tp_dealloc*/
+  __pyx_tp_dealloc_4libs_8datasets_11pycocotools_5_mask_Masks, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -11048,7 +11048,7 @@ static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_Masks = {
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_10thirdparty_11pycocotools_5_mask_Masks, /*tp_methods*/
+  __pyx_methods_4libs_8datasets_11pycocotools_5_mask_Masks, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -11058,7 +11058,7 @@ static PyTypeObject __pyx_type_10thirdparty_11pycocotools_5_mask_Masks = {
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_10thirdparty_11pycocotools_5_mask_Masks, /*tp_new*/
+  __pyx_tp_new_4libs_8datasets_11pycocotools_5_mask_Masks, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -11137,7 +11137,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_frUncompressedRLE, __pyx_k_frUncompressedRLE, sizeof(__pyx_k_frUncompressedRLE), 0, 0, 1, 1},
   {&__pyx_n_s_gt, __pyx_k_gt, sizeof(__pyx_k_gt), 0, 0, 1, 1},
   {&__pyx_n_s_h, __pyx_k_h, sizeof(__pyx_k_h), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_k_home_shang_Work_camus_thirdpart, sizeof(__pyx_k_home_shang_Work_camus_thirdpart), 0, 0, 1, 0},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_kp_s_input_data_type_not_allowed, __pyx_k_input_data_type_not_allowed, sizeof(__pyx_k_input_data_type_not_allowed), 0, 0, 1, 0},
@@ -11155,12 +11154,14 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_isrle, __pyx_k_isrle, sizeof(__pyx_k_isrle), 0, 0, 1, 1},
   {&__pyx_n_s_j, __pyx_k_j, sizeof(__pyx_k_j), 0, 0, 1, 1},
   {&__pyx_n_s_len, __pyx_k_len, sizeof(__pyx_k_len), 0, 0, 1, 1},
+  {&__pyx_n_s_libs_datasets_pycocotools__mask, __pyx_k_libs_datasets_pycocotools__mask, sizeof(__pyx_k_libs_datasets_pycocotools__mask), 0, 0, 1, 1},
   {&__pyx_kp_s_list_input_can_be_bounding_box_N, __pyx_k_list_input_can_be_bounding_box_N, sizeof(__pyx_k_list_input_can_be_bounding_box_N), 0, 0, 1, 0},
   {&__pyx_n_s_m, __pyx_k_m, sizeof(__pyx_k_m), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_mask, __pyx_k_mask, sizeof(__pyx_k_mask), 0, 0, 1, 1},
   {&__pyx_n_s_masks, __pyx_k_masks, sizeof(__pyx_k_masks), 0, 0, 1, 1},
   {&__pyx_n_s_merge, __pyx_k_merge, sizeof(__pyx_k_merge), 0, 0, 1, 1},
+  {&__pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_k_mnt_fs1_chengxuz_maskrcnn_relat, sizeof(__pyx_k_mnt_fs1_chengxuz_maskrcnn_relat), 0, 0, 1, 0},
   {&__pyx_n_s_n, __pyx_k_n, sizeof(__pyx_k_n), 0, 0, 1, 1},
   {&__pyx_kp_u_ndarray_is_not_C_contiguous, __pyx_k_ndarray_is_not_C_contiguous, sizeof(__pyx_k_ndarray_is_not_C_contiguous), 0, 1, 0, 0},
   {&__pyx_kp_u_ndarray_is_not_Fortran_contiguou, __pyx_k_ndarray_is_not_Fortran_contiguou, sizeof(__pyx_k_ndarray_is_not_Fortran_contiguou), 0, 1, 0, 0},
@@ -11187,7 +11188,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_size, __pyx_k_size, sizeof(__pyx_k_size), 0, 0, 1, 1},
   {&__pyx_n_s_sys, __pyx_k_sys, sizeof(__pyx_k_sys), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
-  {&__pyx_n_s_thirdparty_pycocotools__mask, __pyx_k_thirdparty_pycocotools__mask, sizeof(__pyx_k_thirdparty_pycocotools__mask), 0, 0, 1, 1},
   {&__pyx_n_s_toBbox, __pyx_k_toBbox, sizeof(__pyx_k_toBbox), 0, 0, 1, 1},
   {&__pyx_n_s_toString, __pyx_k_toString, sizeof(__pyx_k_toString), 0, 0, 1, 1},
   {&__pyx_n_s_tsungyi, __pyx_k_tsungyi, sizeof(__pyx_k_tsungyi), 0, 0, 1, 1},
@@ -11218,7 +11218,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "thirdparty/pycocotools/_mask.pyx":126
+  /* "libs/datasets/pycocotools/_mask.pyx":126
  *     for i, obj in enumerate(rleObjs):
  *         if PYTHON_VERSION == 2:
  *             py_string = str(obj['counts']).encode('utf8')             # <<<<<<<<<<<<<<
@@ -11229,7 +11229,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "thirdparty/pycocotools/_mask.pyx":130
+  /* "libs/datasets/pycocotools/_mask.pyx":130
  *             py_string = str.encode(obj['counts']) if type(obj['counts']) == str else obj['counts']
  *         else:
  *             raise Exception('Python version must be 2 or 3')             # <<<<<<<<<<<<<<
@@ -11240,7 +11240,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "thirdparty/pycocotools/_mask.pyx":154
+  /* "libs/datasets/pycocotools/_mask.pyx":154
  * def merge(rleObjs, intersect=0):
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef RLEs R = RLEs(1)             # <<<<<<<<<<<<<<
@@ -11251,7 +11251,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "thirdparty/pycocotools/_mask.pyx":180
+  /* "libs/datasets/pycocotools/_mask.pyx":180
  *             # check if it's Nx4 bbox
  *             if not len(objs.shape) == 2 or not objs.shape[1] == 4:
  *                 raise Exception('numpy ndarray input is only for *bounding boxes* and should have Nx4 dimension')             # <<<<<<<<<<<<<<
@@ -11262,7 +11262,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "thirdparty/pycocotools/_mask.pyx":193
+  /* "libs/datasets/pycocotools/_mask.pyx":193
  *                 objs = _frString(objs)
  *             else:
  *                 raise Exception('list input can be bounding box (Nx4) or RLEs ([RLE])')             # <<<<<<<<<<<<<<
@@ -11273,7 +11273,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "thirdparty/pycocotools/_mask.pyx":195
+  /* "libs/datasets/pycocotools/_mask.pyx":195
  *                 raise Exception('list input can be bounding box (Nx4) or RLEs ([RLE])')
  *         else:
  *             raise Exception('unrecognized type.  The following type: RLEs (rle), np.ndarray (box), and list (box) are supported.')             # <<<<<<<<<<<<<<
@@ -11284,7 +11284,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "thirdparty/pycocotools/_mask.pyx":172
+  /* "libs/datasets/pycocotools/_mask.pyx":172
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):
  *     def _preproc(objs):             # <<<<<<<<<<<<<<
@@ -11294,9 +11294,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__7 = PyTuple_Pack(4, __pyx_n_s_objs, __pyx_n_s_isbox, __pyx_n_s_isrle, __pyx_n_s_obj); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
-  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_preproc, 172, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(0, 172, __pyx_L1_error)
+  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_preproc, 172, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(0, 172, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":197
+  /* "libs/datasets/pycocotools/_mask.pyx":197
  *             raise Exception('unrecognized type.  The following type: RLEs (rle), np.ndarray (box), and list (box) are supported.')
  *         return objs
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):             # <<<<<<<<<<<<<<
@@ -11306,9 +11306,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__9 = PyTuple_Pack(6, __pyx_n_s_dt, __pyx_n_s_gt, __pyx_n_s_iscrowd, __pyx_n_s_m, __pyx_n_s_n, __pyx_n_s_iou); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
-  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(6, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_rleIou, 197, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) __PYX_ERR(0, 197, __pyx_L1_error)
+  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(6, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_rleIou, 197, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) __PYX_ERR(0, 197, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":199
+  /* "libs/datasets/pycocotools/_mask.pyx":199
  *     def _rleIou(RLEs dt, RLEs gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t,  ndim=1] _iou):
  *         rleIou( <RLE*> dt._R, <RLE*> gt._R, m, n, <byte*> iscrowd.data, <double*> _iou.data )
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):             # <<<<<<<<<<<<<<
@@ -11318,9 +11318,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__11 = PyTuple_Pack(6, __pyx_n_s_dt, __pyx_n_s_gt, __pyx_n_s_iscrowd, __pyx_n_s_m, __pyx_n_s_n, __pyx_n_s_iou); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 199, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
-  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(6, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_bbIou, 199, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(6, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_bbIou, 199, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(0, 199, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":201
+  /* "libs/datasets/pycocotools/_mask.pyx":201
  *     def _bbIou(np.ndarray[np.double_t, ndim=2] dt, np.ndarray[np.double_t, ndim=2] gt, np.ndarray[np.uint8_t, ndim=1] iscrowd, siz m, siz n, np.ndarray[np.double_t, ndim=1] _iou):
  *         bbIou( <BB> dt.data, <BB> gt.data, m, n, <byte*> iscrowd.data, <double*>_iou.data )
  *     def _len(obj):             # <<<<<<<<<<<<<<
@@ -11330,9 +11330,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__13 = PyTuple_Pack(2, __pyx_n_s_obj, __pyx_n_s_N); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(0, 201, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
-  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_len, 201, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_len, 201, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(0, 201, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":221
+  /* "libs/datasets/pycocotools/_mask.pyx":221
  *         return []
  *     if not type(dt) == type(gt):
  *         raise Exception('The dt and gt should have the same data type, either RLEs, list or np.ndarray')             # <<<<<<<<<<<<<<
@@ -11343,7 +11343,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "thirdparty/pycocotools/_mask.pyx":232
+  /* "libs/datasets/pycocotools/_mask.pyx":232
  *         _iouFun = _bbIou
  *     else:
  *         raise Exception('input data type not allowed.')             # <<<<<<<<<<<<<<
@@ -11354,7 +11354,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
 
-  /* "thirdparty/pycocotools/_mask.pyx":277
+  /* "libs/datasets/pycocotools/_mask.pyx":277
  *     objs = []
  *     for i in range(n):
  *         Rs = RLEs(1)             # <<<<<<<<<<<<<<
@@ -11365,7 +11365,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "thirdparty/pycocotools/_mask.pyx":307
+  /* "libs/datasets/pycocotools/_mask.pyx":307
  *         objs = frUncompressedRLE([pyobj], h, w)[0]
  *     else:
  *         raise Exception('input type is not supported.')             # <<<<<<<<<<<<<<
@@ -11375,7 +11375,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":218
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":218
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -11386,7 +11386,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":222
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":222
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -11397,7 +11397,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":259
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":259
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -11408,7 +11408,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":799
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":799
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -11419,7 +11419,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":803
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":803
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -11430,7 +11430,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":823
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":823
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -11441,7 +11441,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":989
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":989
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -11452,7 +11452,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__25);
   __Pyx_GIVEREF(__pyx_tuple__25);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":995
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":995
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -11463,7 +11463,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1001
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -11472,7 +11472,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__27);
   __Pyx_GIVEREF(__pyx_tuple__27);
 
-  /* "thirdparty/pycocotools/_mask.pyx":103
+  /* "libs/datasets/pycocotools/_mask.pyx":103
  * 
  * # internal conversion from Python RLEs object to compressed RLE format
  * def _toString(RLEs Rs):             # <<<<<<<<<<<<<<
@@ -11482,9 +11482,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__28 = PyTuple_Pack(6, __pyx_n_s_Rs, __pyx_n_s_n, __pyx_n_s_py_string, __pyx_n_s_c_string, __pyx_n_s_objs, __pyx_n_s_i); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
-  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_toString, 103, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(0, 103, __pyx_L1_error)
+  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_toString, 103, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(0, 103, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":119
+  /* "libs/datasets/pycocotools/_mask.pyx":119
  * 
  * # internal conversion from compressed RLE format to Python RLEs object
  * def _frString(rleObjs):             # <<<<<<<<<<<<<<
@@ -11494,9 +11494,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__30 = PyTuple_Pack(7, __pyx_n_s_rleObjs, __pyx_n_s_n, __pyx_n_s_Rs, __pyx_n_s_py_string, __pyx_n_s_c_string, __pyx_n_s_i, __pyx_n_s_obj); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 119, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
-  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(1, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_frString, 119, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(1, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_frString, 119, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 119, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":137
+  /* "libs/datasets/pycocotools/_mask.pyx":137
  * # encode mask to RLEs objects
  * # list of RLE string can be generated by RLEs member function
  * def encode(np.ndarray[np.uint8_t, ndim=3, mode='fortran'] mask):             # <<<<<<<<<<<<<<
@@ -11506,9 +11506,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__32 = PyTuple_Pack(6, __pyx_n_s_mask, __pyx_n_s_h, __pyx_n_s_w, __pyx_n_s_n, __pyx_n_s_Rs, __pyx_n_s_objs); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 137, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
-  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_encode, 137, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_encode, 137, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 137, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":145
+  /* "libs/datasets/pycocotools/_mask.pyx":145
  * 
  * # decode mask from compressed list of RLE string or RLEs object
  * def decode(rleObjs):             # <<<<<<<<<<<<<<
@@ -11518,9 +11518,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__34 = PyTuple_Pack(6, __pyx_n_s_rleObjs, __pyx_n_s_Rs, __pyx_n_s_h, __pyx_n_s_w, __pyx_n_s_n, __pyx_n_s_masks); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_decode, 145, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 145, __pyx_L1_error)
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_decode, 145, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 145, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":152
+  /* "libs/datasets/pycocotools/_mask.pyx":152
  *     return np.array(masks)
  * 
  * def merge(rleObjs, intersect=0):             # <<<<<<<<<<<<<<
@@ -11530,9 +11530,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__36 = PyTuple_Pack(5, __pyx_n_s_rleObjs, __pyx_n_s_intersect, __pyx_n_s_Rs, __pyx_n_s_R, __pyx_n_s_obj); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(2, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_merge, 152, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(2, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_merge, 152, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 152, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":159
+  /* "libs/datasets/pycocotools/_mask.pyx":159
  *     return obj
  * 
  * def area(rleObjs):             # <<<<<<<<<<<<<<
@@ -11542,9 +11542,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__38 = PyTuple_Pack(5, __pyx_n_s_rleObjs, __pyx_n_s_Rs, __pyx_n_s_a, __pyx_n_s_shape, __pyx_n_s_a_2); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_area, 159, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_area, 159, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 159, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":171
+  /* "libs/datasets/pycocotools/_mask.pyx":171
  * 
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):             # <<<<<<<<<<<<<<
@@ -11554,9 +11554,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__40 = PyTuple_Pack(18, __pyx_n_s_dt, __pyx_n_s_gt, __pyx_n_s_pyiscrowd, __pyx_n_s_preproc, __pyx_n_s_preproc, __pyx_n_s_rleIou, __pyx_n_s_rleIou, __pyx_n_s_bbIou, __pyx_n_s_bbIou, __pyx_n_s_len, __pyx_n_s_len, __pyx_n_s_iscrowd, __pyx_n_s_m, __pyx_n_s_n, __pyx_n_s_iou, __pyx_n_s_shape, __pyx_n_s_iouFun, __pyx_n_s_iou_2); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__40);
   __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(3, 0, 18, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_iou_2, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 171, __pyx_L1_error)
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(3, 0, 18, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_iou_2, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 171, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":241
+  /* "libs/datasets/pycocotools/_mask.pyx":241
  *     return iou.reshape((m,n), order='F')
  * 
  * def toBbox( rleObjs ):             # <<<<<<<<<<<<<<
@@ -11566,9 +11566,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__42 = PyTuple_Pack(6, __pyx_n_s_rleObjs, __pyx_n_s_Rs, __pyx_n_s_n, __pyx_n_s_bb_2, __pyx_n_s_shape, __pyx_n_s_bb); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 241, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__42);
   __Pyx_GIVEREF(__pyx_tuple__42);
-  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_toBbox, 241, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(1, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_toBbox, 241, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 241, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":253
+  /* "libs/datasets/pycocotools/_mask.pyx":253
  *     return bb
  * 
  * def frBbox(np.ndarray[np.double_t, ndim=2] bb, siz h, siz w ):             # <<<<<<<<<<<<<<
@@ -11578,9 +11578,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__44 = PyTuple_Pack(6, __pyx_n_s_bb, __pyx_n_s_h, __pyx_n_s_w, __pyx_n_s_n, __pyx_n_s_Rs, __pyx_n_s_objs); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__44);
   __Pyx_GIVEREF(__pyx_tuple__44);
-  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_frBbox, 253, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 253, __pyx_L1_error)
+  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_frBbox, 253, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 253, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":260
+  /* "libs/datasets/pycocotools/_mask.pyx":260
  *     return objs
  * 
  * def frPoly( poly, siz h, siz w ):             # <<<<<<<<<<<<<<
@@ -11590,9 +11590,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__46 = PyTuple_Pack(9, __pyx_n_s_poly, __pyx_n_s_h, __pyx_n_s_w, __pyx_n_s_np_poly, __pyx_n_s_n, __pyx_n_s_Rs, __pyx_n_s_i, __pyx_n_s_p, __pyx_n_s_objs); if (unlikely(!__pyx_tuple__46)) __PYX_ERR(0, 260, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__46);
   __Pyx_GIVEREF(__pyx_tuple__46);
-  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(3, 0, 9, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_frPoly, 260, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(3, 0, 9, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_frPoly, 260, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) __PYX_ERR(0, 260, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":270
+  /* "libs/datasets/pycocotools/_mask.pyx":270
  *     return objs
  * 
  * def frUncompressedRLE(ucRles, siz h, siz w):             # <<<<<<<<<<<<<<
@@ -11602,9 +11602,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__48 = PyTuple_Pack(11, __pyx_n_s_ucRles, __pyx_n_s_h, __pyx_n_s_w, __pyx_n_s_cnts, __pyx_n_s_R, __pyx_n_s_data, __pyx_n_s_n, __pyx_n_s_objs, __pyx_n_s_i, __pyx_n_s_Rs, __pyx_n_s_j); if (unlikely(!__pyx_tuple__48)) __PYX_ERR(0, 270, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__48);
   __Pyx_GIVEREF(__pyx_tuple__48);
-  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(3, 0, 11, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_frUncompressedRLE, 270, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) __PYX_ERR(0, 270, __pyx_L1_error)
+  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(3, 0, 11, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_frUncompressedRLE, 270, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) __PYX_ERR(0, 270, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":288
+  /* "libs/datasets/pycocotools/_mask.pyx":288
  *     return objs
  * 
  * def frPyObjects(pyobj, h, w):             # <<<<<<<<<<<<<<
@@ -11614,7 +11614,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__50 = PyTuple_Pack(4, __pyx_n_s_pyobj, __pyx_n_s_h, __pyx_n_s_w, __pyx_n_s_objs); if (unlikely(!__pyx_tuple__50)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__50);
   __Pyx_GIVEREF(__pyx_tuple__50);
-  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_shang_Work_camus_thirdpart, __pyx_n_s_frPyObjects, 288, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) __PYX_ERR(0, 288, __pyx_L1_error)
+  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_mnt_fs1_chengxuz_maskrcnn_relat, __pyx_n_s_frPyObjects, 288, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -11701,14 +11701,14 @@ PyMODINIT_FUNC PyInit__mask(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_thirdparty__pycocotools___mask) {
+  if (__pyx_module_is_main_libs__datasets__pycocotools___mask) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "thirdparty.pycocotools._mask")) {
-      if (unlikely(PyDict_SetItemString(modules, "thirdparty.pycocotools._mask", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "libs.datasets.pycocotools._mask")) {
+      if (unlikely(PyDict_SetItemString(modules, "libs.datasets.pycocotools._mask", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -11720,14 +11720,14 @@ PyMODINIT_FUNC PyInit__mask(void)
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
   /*--- Type init code ---*/
-  if (PyType_Ready(&__pyx_type_10thirdparty_11pycocotools_5_mask_RLEs) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
-  __pyx_type_10thirdparty_11pycocotools_5_mask_RLEs.tp_print = 0;
-  if (PyObject_SetAttrString(__pyx_m, "RLEs", (PyObject *)&__pyx_type_10thirdparty_11pycocotools_5_mask_RLEs) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
-  __pyx_ptype_10thirdparty_11pycocotools_5_mask_RLEs = &__pyx_type_10thirdparty_11pycocotools_5_mask_RLEs;
-  if (PyType_Ready(&__pyx_type_10thirdparty_11pycocotools_5_mask_Masks) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
-  __pyx_type_10thirdparty_11pycocotools_5_mask_Masks.tp_print = 0;
-  if (PyObject_SetAttrString(__pyx_m, "Masks", (PyObject *)&__pyx_type_10thirdparty_11pycocotools_5_mask_Masks) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
-  __pyx_ptype_10thirdparty_11pycocotools_5_mask_Masks = &__pyx_type_10thirdparty_11pycocotools_5_mask_Masks;
+  if (PyType_Ready(&__pyx_type_4libs_8datasets_11pycocotools_5_mask_RLEs) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
+  __pyx_type_4libs_8datasets_11pycocotools_5_mask_RLEs.tp_print = 0;
+  if (PyObject_SetAttrString(__pyx_m, "RLEs", (PyObject *)&__pyx_type_4libs_8datasets_11pycocotools_5_mask_RLEs) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
+  __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_RLEs = &__pyx_type_4libs_8datasets_11pycocotools_5_mask_RLEs;
+  if (PyType_Ready(&__pyx_type_4libs_8datasets_11pycocotools_5_mask_Masks) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_type_4libs_8datasets_11pycocotools_5_mask_Masks.tp_print = 0;
+  if (PyObject_SetAttrString(__pyx_m, "Masks", (PyObject *)&__pyx_type_4libs_8datasets_11pycocotools_5_mask_Masks) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_ptype_4libs_8datasets_11pycocotools_5_mask_Masks = &__pyx_type_4libs_8datasets_11pycocotools_5_mask_Masks;
   /*--- Type import code ---*/
   __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type", 
   #if CYTHON_COMPILING_IN_PYPY
@@ -11748,7 +11748,7 @@ PyMODINIT_FUNC PyInit__mask(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "thirdparty/pycocotools/_mask.pyx":11
+  /* "libs/datasets/pycocotools/_mask.pyx":11
  * #**************************************************************************
  * 
  * __author__ = 'tsungyi'             # <<<<<<<<<<<<<<
@@ -11757,7 +11757,7 @@ PyMODINIT_FUNC PyInit__mask(void)
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_author, __pyx_n_s_tsungyi) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":13
+  /* "libs/datasets/pycocotools/_mask.pyx":13
  * __author__ = 'tsungyi'
  * 
  * import sys             # <<<<<<<<<<<<<<
@@ -11769,7 +11769,7 @@ PyMODINIT_FUNC PyInit__mask(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_1) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":14
+  /* "libs/datasets/pycocotools/_mask.pyx":14
  * 
  * import sys
  * PYTHON_VERSION = sys.version_info[0]             # <<<<<<<<<<<<<<
@@ -11787,7 +11787,7 @@ PyMODINIT_FUNC PyInit__mask(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_PYTHON_VERSION, __pyx_t_1) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":18
+  /* "libs/datasets/pycocotools/_mask.pyx":18
  * # import both Python-level and C-level symbols of Numpy
  * # the API uses Numpy to interface C and Python
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -11799,7 +11799,7 @@ PyMODINIT_FUNC PyInit__mask(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":23
+  /* "libs/datasets/pycocotools/_mask.pyx":23
  * 
  * # intialized Numpy. must do.
  * np.import_array()             # <<<<<<<<<<<<<<
@@ -11808,151 +11808,151 @@ PyMODINIT_FUNC PyInit__mask(void)
  */
   __pyx_t_3 = __pyx_f_5numpy_import_array(); if (unlikely(__pyx_t_3 == -1)) __PYX_ERR(0, 23, __pyx_L1_error)
 
-  /* "thirdparty/pycocotools/_mask.pyx":103
+  /* "libs/datasets/pycocotools/_mask.pyx":103
  * 
  * # internal conversion from Python RLEs object to compressed RLE format
  * def _toString(RLEs Rs):             # <<<<<<<<<<<<<<
  *     cdef siz n = Rs.n
  *     cdef bytes py_string
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_1_toString, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 103, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_1_toString, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_toString, __pyx_t_1) < 0) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":119
+  /* "libs/datasets/pycocotools/_mask.pyx":119
  * 
  * # internal conversion from compressed RLE format to Python RLEs object
  * def _frString(rleObjs):             # <<<<<<<<<<<<<<
  *     cdef siz n = len(rleObjs)
  *     Rs = RLEs(n)
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_3_frString, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_3_frString, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_frString, __pyx_t_1) < 0) __PYX_ERR(0, 119, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":137
+  /* "libs/datasets/pycocotools/_mask.pyx":137
  * # encode mask to RLEs objects
  * # list of RLE string can be generated by RLEs member function
  * def encode(np.ndarray[np.uint8_t, ndim=3, mode='fortran'] mask):             # <<<<<<<<<<<<<<
  *     h, w, n = mask.shape[0], mask.shape[1], mask.shape[2]
  *     cdef RLEs Rs = RLEs(n)
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_5encode, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_5encode, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 137, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_encode, __pyx_t_1) < 0) __PYX_ERR(0, 137, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":145
+  /* "libs/datasets/pycocotools/_mask.pyx":145
  * 
  * # decode mask from compressed list of RLE string or RLEs object
  * def decode(rleObjs):             # <<<<<<<<<<<<<<
  *     cdef RLEs Rs = _frString(rleObjs)
  *     h, w, n = Rs._R[0].h, Rs._R[0].w, Rs._n
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_7decode, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_7decode, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_decode, __pyx_t_1) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":152
+  /* "libs/datasets/pycocotools/_mask.pyx":152
  *     return np.array(masks)
  * 
  * def merge(rleObjs, intersect=0):             # <<<<<<<<<<<<<<
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef RLEs R = RLEs(1)
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_9merge, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_9merge, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_merge, __pyx_t_1) < 0) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":159
+  /* "libs/datasets/pycocotools/_mask.pyx":159
  *     return obj
  * 
  * def area(rleObjs):             # <<<<<<<<<<<<<<
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef uint* _a = <uint*> malloc(Rs._n* sizeof(uint))
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_11area, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_11area, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_area, __pyx_t_1) < 0) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":171
+  /* "libs/datasets/pycocotools/_mask.pyx":171
  * 
  * # iou computation. support function overload (RLEs-RLEs and bbox-bbox).
  * def iou( dt, gt, pyiscrowd ):             # <<<<<<<<<<<<<<
  *     def _preproc(objs):
  *         if len(objs) == 0:
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_13iou, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 171, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_13iou, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_iou_2, __pyx_t_1) < 0) __PYX_ERR(0, 171, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":241
+  /* "libs/datasets/pycocotools/_mask.pyx":241
  *     return iou.reshape((m,n), order='F')
  * 
  * def toBbox( rleObjs ):             # <<<<<<<<<<<<<<
  *     cdef RLEs Rs = _frString(rleObjs)
  *     cdef siz n = Rs.n
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_15toBbox, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_15toBbox, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 241, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_toBbox, __pyx_t_1) < 0) __PYX_ERR(0, 241, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":253
+  /* "libs/datasets/pycocotools/_mask.pyx":253
  *     return bb
  * 
  * def frBbox(np.ndarray[np.double_t, ndim=2] bb, siz h, siz w ):             # <<<<<<<<<<<<<<
  *     cdef siz n = bb.shape[0]
  *     Rs = RLEs(n)
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_17frBbox, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 253, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_17frBbox, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_frBbox, __pyx_t_1) < 0) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":260
+  /* "libs/datasets/pycocotools/_mask.pyx":260
  *     return objs
  * 
  * def frPoly( poly, siz h, siz w ):             # <<<<<<<<<<<<<<
  *     cdef np.ndarray[np.double_t, ndim=1] np_poly
  *     n = len(poly)
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_19frPoly, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_19frPoly, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 260, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_frPoly, __pyx_t_1) < 0) __PYX_ERR(0, 260, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":270
+  /* "libs/datasets/pycocotools/_mask.pyx":270
  *     return objs
  * 
  * def frUncompressedRLE(ucRles, siz h, siz w):             # <<<<<<<<<<<<<<
  *     cdef np.ndarray[np.uint32_t, ndim=1] cnts
  *     cdef RLE R
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_21frUncompressedRLE, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 270, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_21frUncompressedRLE, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 270, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_frUncompressedRLE, __pyx_t_1) < 0) __PYX_ERR(0, 270, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":288
+  /* "libs/datasets/pycocotools/_mask.pyx":288
  *     return objs
  * 
  * def frPyObjects(pyobj, h, w):             # <<<<<<<<<<<<<<
  *     # encode rle from a list of python objects
  *     if type(pyobj) == np.ndarray:
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10thirdparty_11pycocotools_5_mask_23frPyObjects, NULL, __pyx_n_s_thirdparty_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_4libs_8datasets_11pycocotools_5_mask_23frPyObjects, NULL, __pyx_n_s_libs_datasets_pycocotools__mask); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_frPyObjects, __pyx_t_1) < 0) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "thirdparty/pycocotools/_mask.pyx":1
+  /* "libs/datasets/pycocotools/_mask.pyx":1
  * # distutils: language = c             # <<<<<<<<<<<<<<
  * # distutils: sources = ./common/maskApi.c
  * 
@@ -11962,7 +11962,7 @@ PyMODINIT_FUNC PyInit__mask(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../anaconda2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":997
+  /* "../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":997
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -11978,11 +11978,11 @@ PyMODINIT_FUNC PyInit__mask(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init thirdparty.pycocotools._mask", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init libs.datasets.pycocotools._mask", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init thirdparty.pycocotools._mask");
+    PyErr_SetString(PyExc_ImportError, "init libs.datasets.pycocotools._mask");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

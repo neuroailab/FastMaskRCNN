@@ -93,3 +93,6 @@ data/coco
 data/pretrained_models
 tags
 output
+
+*.swp
+*.gz
