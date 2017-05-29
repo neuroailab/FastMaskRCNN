@@ -1,5 +1,5 @@
 # Mask RCNN
-Mask RCNN in TensorFlow
+Mask RCNN in TensorFlow, trying to move to tfutils (chengxuz).
 
 This repo attempts to reproduce this amazing work by Kaiming He et al. : 
 [Mask R-CNN](https://arxiv.org/abs/1703.06870)
