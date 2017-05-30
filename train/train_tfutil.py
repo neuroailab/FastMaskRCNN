@@ -68,8 +68,57 @@ class COCO(data.TFRecordsParallelByFileProvider):
             *args, **kwargs)
 
 
-def pack_model(inputs, network = 'resnet50', weight_decay = 0.00005):
+def pack_model(inputs, train = True, network = 'resnet50',
+            num_classes=81,
+            base_anchors=9
+        ):
 
+    # Reshape the input image, batch size 1 supported
+    image = tf.decode_raw(inputs['images'], tf.uint8)
+    ih = inputs['height']
+    iw = inputs['width']
+    imsize = tf.size(image)
+    im_shape = tf.shape(image)
+    image = tf.cond(tf.equal(imsize, ih * iw), \
+          lambda: tf.image.grayscale_to_rgb(tf.reshape(image, (ih, iw, 1))), \
+          lambda: tf.reshape(image, (ih, iw, 3)))
+    image_height = ih
+    image_width = iw
+    num_instances = inputs['num_objects']
+    gt_boxes = tf.decode_raw(inputs['bboxes'], tf.float64)
+    gt_boxes = tf.reshape(gt_boxes, [num_instances, 4])
+    labels = tf.decode_raw(inputs['labels'], tf.int32)
+    labels = tf.reshape(labels, [num_instances, 1])
+    gt_boxes = tf.concat([gt_boxes, labels], 1)
+    gt_masks = tf.decode_raw(inputs['segmentation_masks'], tf.uint8)
+    gt_masks = tf.cast(gt_masks, tf.int32)
+    gt_masks = tf.reshape(gt_masks, [num_instances, ih, iw])
+
+    # Build the basic network
+    logits, end_points, pyramid_map = network.get_network(network, image,
+            weight_decay=weight_decay)
+
+    # Build the pyramid
+    pyramid = pyramid_network.build_pyramid(pyramid_map, end_points)
+
+    # Build the heads
+    outputs = \
+        pyramid_network.build_heads(pyramid, image_height, image_width, num_classes, base_anchors, 
+                    is_training=train, gt_boxes=gt_boxes)
+
+    return outputs, {'network': network}
+
+def pack_loss(labels, logits, **kwargs):
+    loss, losses, batch_info = build_losses(pyramid, outputs, 
+                    gt_boxes, gt_masks,
+                    num_classes=num_classes, base_anchors=base_anchors,
+                    rpn_box_lw=loss_weights[0], rpn_cls_lw=loss_weights[1],
+                    refined_box_lw=loss_weights[2], refined_cls_lw=loss_weights[3],
+                    mask_lw=loss_weights[4])
+
+    outputs['losses'] = losses
+    outputs['total_loss'] = loss
+    outputs['batch_info'] = batch_info
 
 
 # Actual function to train the network
@@ -88,9 +137,12 @@ def main():
     args = parser.parse_args()
 
     exp_id  = args.expId
-    cache_dir = os.path.join(args.cacheDirPrefix, '.tfutils', 'localhost:'+ str(args.nport), 'normalnet-test', 'normalnet', exp_id)
+    dbname = 'normalnet-test'
+    colname = 'maskrcnn'
+    cache_dir = os.path.join(args.cacheDirPrefix, '.tfutils', 'localhost:'+ str(args.nport), dbname, colname, exp_id)
     BATCH_SIZE = args.batchsize
 
+    # Define all params
     train_data_param = {
                 'func': COCO,
                 'data_path': DATA_PATH,
@@ -111,6 +163,54 @@ def main():
             'decay_rate': 0.94,
             'decay_steps': NUM_BATCHES_PER_EPOCH*2,  # exponential decay each epoch
             'staircase': True
+        }
+    model_params = {
+            'func': pack_model
+        }
+    optimizer_class = tf.train.MomentumOptimizer
+    optimizer_params = {
+            'func': optimizer.ClipOptimizer,
+            'optimizer_class': optimizer_class,
+            'clip': True,
+            'momentum': .9
+        }
+    save_params = {
+            'host': 'localhost',
+            'port': args.nport,
+            'dbname': dbname,
+            'collname': colname,
+            'exp_id': exp_id,
+
+            'do_save': True,
+            'save_initial_filters': True,
+            'save_metrics_freq': 2500,  # keeps loss from every SAVE_LOSS_FREQ steps.
+            'save_valid_freq': 5000,
+            'save_filters_freq': 5000,
+            'cache_filters_freq': 5000,
+            'cache_dir': cache_dir,
+        }
+
+    train_params = {
+            'validate_first': False,
+            'data_params': train_data_param,
+            'queue_params': train_queue_params,
+            'thres_loss': np.finfo(np.float32).max,
+            'num_steps': 20 * NUM_BATCHES_PER_EPOCH  # number of steps to train
+        }
+    load_query = None
+    load_params = {
+            'host': 'localhost',
+            'port': args.nport,
+            'dbname': dbname,
+            'collname': colname,
+            'exp_id': exp_id,
+            'do_restore': True,
+            'query': load_query 
+    }
+    loss_func = pack_loss
+    loss_params = {
+            'agg_func': tf.reduce_mean,
+            'loss_per_case_func': loss_func,
         }
 
 
