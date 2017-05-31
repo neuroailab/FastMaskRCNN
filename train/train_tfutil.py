@@ -30,6 +30,7 @@ import copy
 import argparse
 
 resnet50 = resnet_v1.resnet_v1_50
+FLAGS = tf.app.flags.FLAGS
 
 # Build the path dictionary for both train and test
 FOLDERs = { 'train': '/mnt/fs0/datasets/mscoco/train_tfrecords',
@@ -42,6 +43,32 @@ for key_group in FOLDERs:
     for key_feature in KEY_LIST:
         DATA_PATH[ '%s/%s' % (key_group, key_feature) ] = os.path.join(FOLDERs[key_group], key_feature)
 
+def restore(sess):
+
+    if FLAGS.pretrained_model:
+        if tf.gfile.IsDirectory(FLAGS.pretrained_model):
+            checkpoint_path = tf.train.latest_checkpoint(FLAGS.pretrained_model)
+        else:
+            checkpoint_path = FLAGS.pretrained_model
+
+        if FLAGS.checkpoint_exclude_scopes is None:
+            FLAGS.checkpoint_exclude_scopes='pyramid'
+        if FLAGS.checkpoint_include_scopes is None:
+            FLAGS.checkpoint_include_scopes='resnet_v1_50'
+
+        vars_to_restore = get_var_list_to_restore()
+        for var in vars_to_restore:
+            print ('restoring ', var.name)
+
+        try:
+           restorer = tf.train.Saver(vars_to_restore)
+           restorer.restore(sess, checkpoint_path)
+           print ('Restored %d(%d) vars from %s' %(
+               len(vars_to_restore), len(tf.global_variables()),
+               checkpoint_path ))
+        except:
+           print ('Checking your params %s' %(checkpoint_path))
+           raise
 
 # Build data provider for COCO dataset
 class COCO(data.TFRecordsParallelByFileProvider):
@@ -286,7 +313,7 @@ def main():
             'func': optimizer.ClipOptimizer,
             'optimizer_class': optimizer_class,
             'clip': True,
-            'momentum': .9
+            'momentum': .99
         }
     save_params = {
             'host': 'localhost',
@@ -327,6 +354,9 @@ def main():
             'agg_func': tf.reduce_mean,
             'loss_per_case_func': loss_func,
         }
+    postsess_params = {
+            'func': restore,
+            }
     params = {
         'save_params': save_params,
 
@@ -341,6 +371,8 @@ def main():
         'learning_rate_params': learning_rate_params,
 
         'optimizer_params': optimizer_params,
+
+        'postsess_params': postsess_params,
 
         'log_device_placement': False,  # if variable placement has to be logged
         'validation_params': {},
