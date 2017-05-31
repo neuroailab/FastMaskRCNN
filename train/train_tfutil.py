@@ -40,7 +40,7 @@ BYTES_KEYs = ['images', 'labels', 'segmentation_masks', 'bboxes']
 DATA_PATH = {}
 for key_group in FOLDERs:
     for key_feature in KEY_LIST:
-        DATA_PATH[ '%s/%s' % (key_group, key_feature) ] = os.path.join(FOLDERs[key_group], KEY_LIST[key_feature])
+        DATA_PATH[ '%s/%s' % (key_group, key_feature) ] = os.path.join(FOLDERs[key_group], key_feature)
 
 
 # Build data provider for COCO dataset
@@ -55,6 +55,7 @@ class COCO(data.TFRecordsParallelByFileProvider):
                  *args,
                  **kwargs):
         self.group = group
+        self.batch_size = batch_size
 
         source_dirs = [data_path['%s/%s' % (self.group, v)] for v in key_list]
         meta_dicts = [{v : {'dtype': tf.string, 'shape': []}} if v in BYTES_KEYs else {v : {'dtype': tf.int64, 'shape': []}} for v in key_list]
@@ -67,35 +68,120 @@ class COCO(data.TFRecordsParallelByFileProvider):
             shuffle = True,
             *args, **kwargs)
 
+    def set_data_shapes(self, data):
+        for i in range(len(data)):
+            for k in data[i]:
+                # set shape[0] to batch size for all entries
+                shape = data[i][k].get_shape().as_list()
+                shape[0] = self.batch_size
+                data[i][k].set_shape(shape)
+        return data
 
-def pack_model(inputs, train = True, network = 'resnet50',
-            num_classes=81,
-            base_anchors=9
+    def prep_data(self, data):
+        for i in range(len(data)):
+            inputs = data[i]
+
+            image = inputs['images']
+            image = tf.decode_raw(image, tf.uint8)
+            ih = inputs['height']
+            iw = inputs['width']
+            ih = tf.cast(ih, tf.int32)
+            iw = tf.cast(iw, tf.int32)
+            inputs['height'] = ih
+            inputs['width'] = iw
+
+            imsize = tf.size(image)
+
+            #image = tf.Print(image, [imsize, ih, iw], message = 'Imsize')
+
+            image = tf.cond(tf.equal(imsize, ih * iw), \
+                  lambda: tf.image.grayscale_to_rgb(tf.reshape(image, (ih, iw, 1))), \
+                  lambda: tf.reshape(image, (ih, iw, 3)))
+
+            image_height = ih
+            image_width = iw
+            num_instances = inputs['num_objects']
+            num_instances = tf.cast(num_instances, tf.int32)
+            inputs['num_objects'] = num_instances
+            gt_boxes = tf.decode_raw(inputs['bboxes'], tf.float64)
+            gt_boxes = tf.reshape(gt_boxes, [num_instances, 4])
+
+            labels = tf.decode_raw(inputs['labels'], tf.int32)
+            labels = tf.reshape(labels, [num_instances, 1])
+            inputs['labels'] = labels
+
+            gt_boxes = tf.concat([gt_boxes, tf.cast(labels, tf.float64)], 1)
+            gt_boxes = tf.cast(gt_boxes, tf.float32)
+
+            gt_masks = tf.decode_raw(inputs['segmentation_masks'], tf.uint8)
+            gt_masks = tf.cast(gt_masks, tf.int32)
+            gt_masks = tf.reshape(gt_masks, [num_instances, ih, iw])
+            #gt_masks = tf.Print(gt_masks, [tf.shape(gt_masks)], message = 'Mask shape before', summarize = 4)
+
+            image, gt_boxes, gt_masks = coco_preprocess.preprocess_image(image, gt_boxes, gt_masks, True)
+            #image = tf.Print(image, [tf.shape(image)], message = 'Imsize', summarize = 4)
+            #gt_masks = tf.Print(gt_masks, [tf.shape(gt_masks)], message = 'Mask shape', summarize = 4)
+
+            inputs['segmentation_masks'] = gt_masks
+            inputs['bboxes'] = gt_boxes
+            inputs['images'] = image
+
+        return data
+
+    def set_data_shapes_none(self, data):
+        for i in range(len(data)):
+            for k in data[i]:
+                # set shape[0] to batch size for all entries
+                #print('coco before', k, data[i][k].get_shape().as_list())
+                #data[i][k].set_shape(None)
+                #data[i][k].set_shape(None)
+                #print('coco before', k, data[i][k].get_shape().as_list())
+                data[i][k] = tf.squeeze(data[i][k], axis=[-1])
+                #print('coco', k, data[i][k].get_shape().as_list())
+                pass
+        return data
+
+    def init_ops(self):
+        self.input_ops = super(COCO, self).init_ops()
+
+        # make sure batch size shapes of tensors are set
+        #self.input_ops = self.set_data_shapes(self.input_ops)
+        self.input_ops = self.set_data_shapes_none(self.input_ops)
+        self.input_ops = self.prep_data(self.input_ops)
+        #self.input_ops = self.set_data_shapes_none(self.input_ops)
+
+        return self.input_ops
+
+
+def pack_model(inputs, train = True, back_network = 'resnet50',
+            #num_classes=81,
+            num_classes=91,
+            base_anchors=9,
+            weight_decay=0.00005,
+            **kwargs
         ):
 
     # Reshape the input image, batch size 1 supported
-    image = tf.decode_raw(inputs['images'], tf.uint8)
+    image = inputs['images']
     ih = inputs['height']
     iw = inputs['width']
-    imsize = tf.size(image)
     im_shape = tf.shape(image)
-    image = tf.cond(tf.equal(imsize, ih * iw), \
-          lambda: tf.image.grayscale_to_rgb(tf.reshape(image, (ih, iw, 1))), \
-          lambda: tf.reshape(image, (ih, iw, 3)))
+    #image = tf.Print(image, [im_shape], message = 'shape', summarize = 4)
+    image = tf.reshape(image, (im_shape[0], im_shape[1], im_shape[2], 3))
+    image = tf.cast(image, tf.float32)
+
     image_height = ih
     image_width = iw
     num_instances = inputs['num_objects']
-    gt_boxes = tf.decode_raw(inputs['bboxes'], tf.float64)
-    gt_boxes = tf.reshape(gt_boxes, [num_instances, 4])
-    labels = tf.decode_raw(inputs['labels'], tf.int32)
-    labels = tf.reshape(labels, [num_instances, 1])
-    gt_boxes = tf.concat([gt_boxes, labels], 1)
-    gt_masks = tf.decode_raw(inputs['segmentation_masks'], tf.uint8)
-    gt_masks = tf.cast(gt_masks, tf.int32)
-    gt_masks = tf.reshape(gt_masks, [num_instances, ih, iw])
+    gt_boxes = inputs['bboxes']
+    #gt_boxes = tf.reshape(gt_boxes, [num_instances, 4])
+    #labels = inputs['labels']
+    #labels = tf.reshape(labels, [num_instances, 1])
+    #gt_boxes = tf.concat([gt_boxes, tf.cast(labels, tf.float64)], 1)
+    #gt_boxes = tf.Print(gt_boxes, [tf.shape(gt_boxes)], message = 'Box shape', summarize = 4)
 
     # Build the basic network
-    logits, end_points, pyramid_map = network.get_network(network, image,
+    logits, end_points, pyramid_map = network.get_network(back_network, image,
             weight_decay=weight_decay)
 
     # Build the pyramid
@@ -106,20 +192,44 @@ def pack_model(inputs, train = True, network = 'resnet50',
         pyramid_network.build_heads(pyramid, image_height, image_width, num_classes, base_anchors, 
                     is_training=train, gt_boxes=gt_boxes)
 
-    return outputs, {'network': network}
+    return {'outputs': outputs, 'pyramid': pyramid}, {'network': back_network}
 
-def pack_loss(labels, logits, **kwargs):
-    loss, losses, batch_info = build_losses(pyramid, outputs, 
+def pack_loss(labels, logits, 
+            #num_classes=81,
+            num_classes=91,
+            base_anchors=9,
+            loss_weights=[0.2, 0.2, 1.0, 0.2, 1.0],
+            **kwargs
+        ):
+    #'targets': ['height', 'width', 'num_objects', 'labels', 'segmentation_masks', 'bboxes'],
+    #print(labels)
+    ih = labels[0]
+    iw = labels[1]
+    num_instances = labels[2]
+    gt_boxes = labels[5]
+    #labels_s = labels[3]
+    #gt_boxes = tf.concat([gt_boxes, tf.cast(labels_s, tf.float64)], 1)
+    #gt_boxes = tf.Print(gt_boxes, [tf.shape(gt_boxes)], message = 'Box shape loss', summarize = 4)
+    gt_masks = labels[4]
+    #gt_masks = tf.Print(gt_masks, [tf.shape(gt_masks)], message = 'Mask shape loss', summarize = 4)
+
+    loss, losses, batch_info = pyramid_network.build_losses(logits['pyramid'], logits['outputs'], 
                     gt_boxes, gt_masks,
                     num_classes=num_classes, base_anchors=base_anchors,
                     rpn_box_lw=loss_weights[0], rpn_cls_lw=loss_weights[1],
                     refined_box_lw=loss_weights[2], refined_cls_lw=loss_weights[3],
                     mask_lw=loss_weights[4])
 
-    outputs['losses'] = losses
-    outputs['total_loss'] = loss
-    outputs['batch_info'] = batch_info
+    #outputs['losses'] = losses
+    #outputs['total_loss'] = loss
+    #outputs['batch_info'] = batch_info
+    losses = tf.get_collection(tf.GraphKeys.LOSSES)
+    regular_losses = tf.get_collection(tf.GraphKeys.REGULARIZATION_LOSSES)
+    regular_loss = tf.add_n(regular_losses)
+    out_loss = tf.add_n(losses)
+    total_loss = tf.add_n(losses + regular_losses)
 
+    return total_loss
 
 # Actual function to train the network
 def main():
@@ -136,11 +246,14 @@ def main():
 
     args = parser.parse_args()
 
+    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
+
     exp_id  = args.expId
     dbname = 'normalnet-test'
     colname = 'maskrcnn'
     cache_dir = os.path.join(args.cacheDirPrefix, '.tfutils', 'localhost:'+ str(args.nport), dbname, colname, exp_id)
     BATCH_SIZE = args.batchsize
+    n_threads = 4
 
     # Define all params
     train_data_param = {
@@ -148,7 +261,8 @@ def main():
                 'data_path': DATA_PATH,
                 'group': 'train',
                 'n_threads': n_threads,
-                'batch_size': 1
+                'batch_size': 1,
+                'key_list': KEY_LIST,
             }
     train_queue_params = {
             'queue_type': 'random',
@@ -209,9 +323,31 @@ def main():
     }
     loss_func = pack_loss
     loss_params = {
+            'targets': ['height', 'width', 'num_objects', 'labels', 'segmentation_masks', 'bboxes'],
             'agg_func': tf.reduce_mean,
             'loss_per_case_func': loss_func,
         }
+    params = {
+        'save_params': save_params,
+
+        'load_params': load_params,
+
+        'model_params': model_params,
+
+        'train_params': train_params,
+
+        'loss_params': loss_params,
+
+        'learning_rate_params': learning_rate_params,
+
+        'optimizer_params': optimizer_params,
+
+        'log_device_placement': False,  # if variable placement has to be logged
+        'validation_params': {},
+    }
+
+    # Run the training
+    base.train_from_params(**params)
 
 
 if __name__ == '__main__':

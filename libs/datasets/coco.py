@@ -116,8 +116,12 @@ def read(tfrecords_filename):
   img_id = tf.cast(features['image/img_id'], tf.int32)
   ih = tf.cast(features['image/height'], tf.int32)
   iw = tf.cast(features['image/width'], tf.int32)
+  print(ih)
+  print(iw)
   num_instances = tf.cast(features['label/num_instances'], tf.int32)
+  print(features['image/encoded'].get_shape().as_list())
   image = tf.decode_raw(features['image/encoded'], tf.uint8)
+  print(image.get_shape().as_list())
   imsize = tf.size(image)
   image = tf.cond(tf.equal(imsize, ih * iw), \
           lambda: tf.image.grayscale_to_rgb(tf.reshape(image, (ih, iw, 1))), \

@@ -123,6 +123,7 @@ def train():
     tf.add_to_collection(tf.GraphKeys.QUEUE_RUNNERS, data_queue_runner)
     (image, ih, iw, gt_boxes, gt_masks, num_instances, img_id) =  data_queue.dequeue()
     im_shape = tf.shape(image)
+    image = tf.Print(image, [im_shape], message = 'shape', summarize = 4)
     image = tf.reshape(image, (im_shape[0], im_shape[1], im_shape[2], 3))
 
     ## network
